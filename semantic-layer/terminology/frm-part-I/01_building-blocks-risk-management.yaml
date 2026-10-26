@@ -1,0 +1,72 @@
+- id: equity-risk
+  name: Equity Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: [market-risk]
+  notation: None
+  examples: None
+
+- id: interest-rate-risk
+  name: Interest Rate Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: [market-risk]
+  notation: None
+  examples: None
+
+- id: currency-risk
+  name: Currency Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: [market-risk]
+  notation: None
+  examples: None
+
+- id: commodity-price-risk
+  name: Commodity Price Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: [market-risk]
+  notation: None
+  examples: None
+
+- id: market-risk
+  name: Market Risk
+  aliases: None
+  acronyms: None  
+  definition: the change in market prices can drive the value of securities and other assets up and down. Price volatility is the engine of market risk. |
+    Depending on the underlying asset, risk can take different forms such as Equity Risk, Interest Rate Risk, Currency Risk and Commodity Price Risk.
+  related: [equity-risk, interest-rate-risk, currency-risk, commodity-price-risk]
+  notation: None
+  examples: None
+
+- id: credit-risk
+  name: Credit Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: []
+  notation: None
+  examples: None
+
+- id: liquidity-risk
+  name: Liquidity Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: []
+  notation: None
+  examples: None
+
+- id: bank-operational-risk
+  name: Bank Operational Risk
+  aliases: None
+  acronyms: None
+  definition: None
+  related: []
+  notation: None
+  examples: None

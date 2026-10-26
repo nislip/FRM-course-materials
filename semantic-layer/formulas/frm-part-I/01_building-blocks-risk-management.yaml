@@ -1,0 +1,24 @@
+- id: parametric-var
+  name: Parametric (delta-normal) VaR
+  concepts: [value-at-risk]
+  latex: |
+    \mathrm{VaR}_\alpha = (z_\alpha \sigma - \mu)\, V
+  variables:
+    - { symbol: 'z_\alpha', notation: z-alpha,      meaning: standard normal quantile at confidence α }
+    - { symbol: '\sigma',   notation: sigma-return, meaning: return volatility over the horizon, units: decimal }
+    - { symbol: '\mu',      notation: mu-return,    meaning: expected return over the horizon,   units: decimal }
+    - { symbol: 'V',        notation: position-value, meaning: portfolio value, units: currency }
+  assumptions:
+    - Returns are normally distributed
+    - Portfolio value is linear in the risk factor
+  conventions:
+    sign: VaR is reported as a positive loss
+    horizon: σ and μ are measured over the VaR horizon
+  variants: [parametric-var-sqrt-t]        # e.g. scaling a 1-day VaR to T days
+  related: [expected-shortfall-normal]
+  source: 'GARP FRM Part I, Book 4: Valuation and Risk Models, 2025 ed., ch. N, p. N'
+  implementation: None
+  examples:
+    - inputs:  { V: 10000000, sigma: 0.02, mu: 0, alpha: 0.99 }
+      output:  465270
+      tolerance: 1
