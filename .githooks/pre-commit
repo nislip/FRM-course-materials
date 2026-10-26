@@ -1,0 +1,7 @@
+#!/bin/sh
+# Rebuild the concept graph whenever semantic-layer/ or the generator changes,
+# and stage the result so the committed graph always matches the YAML.
+if git diff --cached --name-only | grep -qE '^(semantic-layer/|scripts/build_graph\.py|scripts/graph_template\.html)'; then
+  python3 scripts/build_graph.py || exit 1
+  git add graph/concept-graph.md graph/concept-graph.html
+fi

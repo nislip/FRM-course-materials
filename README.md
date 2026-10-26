@@ -75,3 +75,20 @@ origin  https://github.com/nislip/FRM-study-agent.git (push)
 git status --short
 git diff --shortstat
 ```
+# Concept Graph
+
+`graph/` holds a graph of every term, concept and formula in `semantic-layer/`, built from the `related`, `concepts` and `variants` fields.
+
+- `graph/concept-graph.md` renders on GitHub and in the VS Code Markdown preview.
+- `graph/concept-graph.html` is interactive: open it in a browser, click a node to see its definition and links.
+
+Both are generated, so don't edit them by hand. A pre-commit hook rebuilds them whenever `semantic-layer/` changes. After cloning, run once:
+
+```
+pip3 install -r requirements.txt
+git config core.hooksPath .githooks
+```
+
+To rebuild manually: `python3 scripts/build_graph.py`
+
+Links can be plain ids (`related: [market-risk]`) or typed (`related: [{ id: market-risk, type: is-a }]`). Typed links show as labelled arrows.
