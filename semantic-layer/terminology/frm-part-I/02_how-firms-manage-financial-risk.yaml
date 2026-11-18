@@ -1,0 +1,9 @@
+- id: risk-capacity
+  name: Risk Capacity
+  aliases: null
+  acronyms: null
+  definition: >
+    The maximum amount of risk a firm can absorb. Not the same as risk appetite.
+  related: [risk-appetite]
+  notation: null
+  examples: null

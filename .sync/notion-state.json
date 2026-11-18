@@ -1,5 +1,426 @@
 {
-  "database_id": null,
-  "last_synced_at": null,
-  "pages": {}
+  "database_id": "3b358806-1260-825e-bd8e-01b434b9db6f",
+  "last_synced_at": "2026-11-18T03:44:10Z",
+  "pages": {
+    "04258806-1260-8302-bb5d-81a8dd34cade": {
+      "last_edited_time": "2026-11-17T21:28:25.507Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 4: Credit Risk Transfer Mechanisms"
+    },
+    "36a58806-1260-8034-ac93-e8df6bf262c8": {
+      "last_edited_time": "2026-11-17T21:28:50.277Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 7: Principals for Effective Data Aggregation and Risk Reporting"
+    },
+    "36a58806-1260-803f-9a02-f342ba12592a": {
+      "last_edited_time": "2026-11-17T21:28:41.532Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 6: The Arbitrage Pricing Theory and Multi-Factor Models of Risk and Return"
+    },
+    "36a58806-1260-8066-b8c5-e5bbeed83559": {
+      "last_edited_time": "2026-11-17T21:29:02.597Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 8: Enterprise Risk Management and Future Trends"
+    },
+    "36a58806-1260-80a8-8808-fe44a120a8a5": {
+      "last_edited_time": "2026-11-17T21:29:13.740Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 9: Learning from Financial Disasters"
+    },
+    "36e58806-1260-8003-aaa8-c724901293dc": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 11: GARP Code of Conduct"
+    },
+    "36e58806-1260-8015-aca5-ea453b54331b": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 7: Linear Regression"
+    },
+    "36e58806-1260-802a-b4b1-f58c989454b5": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 12: Measuring Returns, Volatility, and Correlation"
+    },
+    "36e58806-1260-804e-9a75-ccca2b8f1501": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 10: Stationary Time-Series"
+    },
+    "36e58806-1260-8057-9e97-d193195d6aeb": {
+      "last_edited_time": "2026-11-10T20:06:26.451Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 1: Fundamentals of Probability"
+    },
+    "36e58806-1260-8060-9acb-ea2f2ccb5ca2": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 11: Non-Stationary Time Series"
+    },
+    "36e58806-1260-809b-b99f-e1c21f252841": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitive Analysis Chapter 2: Random Variables"
+    },
+    "36e58806-1260-80a4-84fc-de97ebe259b2": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 3: Common Univariate Random Variables"
+    },
+    "36e58806-1260-80ae-bd0a-eda984451de1": {
+      "last_edited_time": "2026-11-17T21:29:24.753Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 10: Anatomy of the Great Financial Crisis of 2007-2009"
+    },
+    "36e58806-1260-80b1-9f77-f6683f219bd7": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 8: Regression with Multiple Explanatory Variables"
+    },
+    "36e58806-1260-80c5-a354-d297f7293035": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 14: Machine-Learning Methods"
+    },
+    "36e58806-1260-80c7-a447-cbcef2716ef0": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 5: Sample Moments"
+    },
+    "36e58806-1260-80d5-9b80-dd0f505b9f3c": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 4: Multivariate Random Variables"
+    },
+    "36e58806-1260-80da-a061-f6ec52d1dcd4": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 6: Hypothesis Testing"
+    },
+    "36e58806-1260-80e3-9e82-db7f22aaeade": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 9: Regression Diagnostics"
+    },
+    "36e58806-1260-80e5-9f8c-f83c3eef8aa6": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 15: Machine Learning and Prediction"
+    },
+    "36e58806-1260-80ff-bbb6-c2c4460866d3": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Quantitative Analysis Chapter 13: Simulation and Bootstrapping"
+    },
+    "37258806-1260-8001-b402-fb876ac37824": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 14: Trading Strategies"
+    },
+    "37258806-1260-8003-9177-e01aac1f1198": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 19: Interest Rate Futures"
+    },
+    "37258806-1260-8004-a2bf-e342ecea1c6b": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 16: Properties of Interest Rates"
+    },
+    "37258806-1260-800b-9e99-e42d5e88f314": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 10: Pricing Financial Forwards and Futures"
+    },
+    "37258806-1260-801c-9631-d75e8d3d388b": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 3: Fund Management"
+    },
+    "37258806-1260-8025-a612-c15556166310": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 2: Insurance Companies and Pension Plans"
+    },
+    "37258806-1260-802a-8ecb-f356ae710585": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 15: Exotic Options"
+    },
+    "37258806-1260-8053-a566-d676aeafc64f": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 8: Using Futures for Hedging"
+    },
+    "37258806-1260-806f-b54e-dea737964b19": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 11: Commodity Forwards and Futures"
+    },
+    "37258806-1260-8083-bada-d345427f8387": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 5: Exchanges and OTC Markets"
+    },
+    "37258806-1260-8088-808b-f545d4bc2205": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 12: Options Markets"
+    },
+    "37258806-1260-808c-9a75-e03814e57c48": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 7: Futures Markets"
+    },
+    "37258806-1260-8093-8548-fd5ae032cd1a": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 1: Banks"
+    },
+    "37258806-1260-809c-a07d-fd4b1f38567e": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 4: Introduction to Derivatives"
+    },
+    "37258806-1260-80b6-8aae-cf7020a5d9fb": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 6: Central Clearing"
+    },
+    "37258806-1260-80b7-81e8-cd6af13eb584": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 17: Corporate Bonds"
+    },
+    "37258806-1260-80b8-9225-f65f43734139": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 20: Swaps"
+    },
+    "37258806-1260-80c5-aa8b-e60d6fda9f2a": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 13: Properties of Options"
+    },
+    "37258806-1260-80d4-b0ae-c73d65c37c61": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 18: Mortgages and Mortgage-Backed Securities"
+    },
+    "37258806-1260-80fb-bb0b-f7301d88651a": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Financial Markets and Products Chapter 9: Foreign Exchange Markets"
+    },
+    "38458806-1260-8011-9d40-c15876ea6637": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 13: Modeling Non-Parallel Term Structure Shifts and Hedging"
+    },
+    "38458806-1260-8017-bb81-e7f85fdd1ee1": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 2: Applying VaR"
+    },
+    "38458806-1260-8023-9643-c8209c89f527": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 14: Binomial Trees"
+    },
+    "38458806-1260-8025-80ad-e39d0e60428d": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 8: Stress Testing"
+    },
+    "38458806-1260-8027-ae9d-f352ed051529": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 1: Measures of Financial Risk"
+    },
+    "38458806-1260-802b-b9b9-cc5e270bda76": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 7: Operational Risk"
+    },
+    "38458806-1260-802f-a5c3-f10459c71528": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 6: Measuring Credit Risk"
+    },
+    "38458806-1260-8038-944c-ff54d8501da4": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 9: Pricing Conventions, Discounting, and Arbitrage"
+    },
+    "38458806-1260-804f-b31a-f3e1a3f27a87": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Exam Day"
+    },
+    "38458806-1260-8060-8df2-dab5aec7909a": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 4: External and Internal Credit Ratings"
+    },
+    "38458806-1260-8068-8e42-ef25e7f1d09c": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Practice Exam #2"
+    },
+    "38458806-1260-806c-9c9b-ef52d1342603": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 12: Applying Duration, Convexity and DV01"
+    },
+    "38458806-1260-8085-a68b-d1db39224932": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 11: Bond Yields and Return Calculations"
+    },
+    "38458806-1260-8086-9ba6-de7337dc2d62": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Practice Exam #3"
+    },
+    "38458806-1260-8088-84fc-f86a4899c0a0": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Practice Exam #1"
+    },
+    "38458806-1260-809c-9700-d6c3afd8d05a": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 15: The Black-Scholes-Merton-Model"
+    },
+    "38458806-1260-80a8-82fd-c28569532c7e": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 16: Options Sensitivity Measures: The"
+    },
+    "38458806-1260-80ae-86be-cb5da8552ede": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 5: Country Risk, Determinants, Measures and Imp"
+    },
+    "38458806-1260-80ed-ac74-d4e9f8a62779": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Practice Exam #4"
+    },
+    "38458806-1260-80f3-b2aa-eeadee63cfa9": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Practice Exam #5"
+    },
+    "38458806-1260-80fe-8854-d6cd398fb350": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 3: Measuring and Monitoring Volatility"
+    },
+    "38458806-1260-80ff-b2c5-e22bffa87054": {
+      "last_edited_time": "2026-10-26T14:32:02.924Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Valuation and Risk Models Chapter 10: Interest Rates"
+    },
+    "41458806-1260-80b4-af1f-d1ec90e49382": {
+      "last_edited_time": "2026-11-17T21:30:05.706Z",
+      "part": null,
+      "reading": null,
+      "title": "Extra Course Work: Stress Testing Approaches, Methods, and Applications"
+    },
+    "41b58806-1260-80f3-a625-d181e98cd274": {
+      "last_edited_time": "2026-11-17T21:30:02.320Z",
+      "part": null,
+      "reading": null,
+      "title": "Extra Course Work: Sample Questions from GARP Study Guide"
+    },
+    "74158806-1260-8365-88c7-815160814917": {
+      "last_edited_time": "2026-11-17T21:28:36.186Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 5: Modern Portfolio Theory and Capital Asset Pricing Model"
+    },
+    "80e58806-1260-82a2-b1bc-01625b14fd51": {
+      "last_edited_time": "2026-11-17T21:31:00.735Z",
+      "part": "frm-part-I",
+      "reading": "02_how-firms-manage-financial-risk",
+      "title": "Foundations Chapter 2: How do Firms Manage Financial Risk?"
+    },
+    "bd358806-1260-8289-bbf9-81c8344346c2": {
+      "last_edited_time": "2026-11-17T21:28:20.900Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Foundations Chapter 3: The Governance of Risk Management"
+    },
+    "da058806-1260-8315-b7fe-810f87e006a9": {
+      "last_edited_time": "2026-11-17T21:28:09.213Z",
+      "part": "frm-part-I",
+      "reading": "01_building-blocks-risk-management",
+      "title": "Foundations Chapter 1: The Building Blocks of Risk Management"
+    }
+  }
 }
