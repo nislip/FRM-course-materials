@@ -1,0 +1,74 @@
+- id: risk-management-roadmap
+  name: Risk Management Roadmap
+  aliases: null
+  definition: >
+    The sequence of questions a firm should answer to manage risk, from identifying its risk appetite through
+    implementing and regularly re-evaluating its approach.
+  key_points:
+    - 'Identify risk appetite: key corporate goals and risks, whether and which risks to manage, a broad risk appetite statement'
+    - 'Map risks and make choices: measure risk and impact, run risk/reward analysis (e.g. RAROC), choose a basic strategy'
+    - 'Operationalize risk appetite: risk policies, a risk limit framework, and a right-sized risk management team'
+    - 'Implement: choose tactics and instruments, make day-to-day decisions, establish oversight'
+    - Re-evaluate regularly to capture changes in risk appetite, business activity, the risk environment and new tools
+  formulas: null
+  learning_objectives:
+    - Compare strategies a firm can use to manage its risk exposures and when each is appropriate
+
+- id: hedging-philosophy
+  name: Hedging Philosophy
+  aliases: null
+  definition: >
+    Just because a risk can be hedged does not mean it should be; hedging is intended to reduce the chance of
+    financial distress but has both transparent and opaque costs.
+  key_points:
+    - Costs can be transparent (option premiums) or opaque (tactical errors, rogue trading)
+    - Theoretical arguments against hedging assume perfect, frictionless markets, but there are many imperfections
+    - Hedging can increase cash flows, e.g. letting a firm offer customers a stable price by hedging a key cost input
+    - Equity investors concentrated in one firm generally want managers to hedge; diversified investors generally do not
+    - Risk management instruments can themselves have negative consequences
+  formulas: null
+  learning_objectives:
+    - Evaluate the advantages and disadvantages of hedging and the challenges of implementing a hedging strategy
+
+- id: risk-appetite
+  name: Risk Appetite
+  aliases: null
+  definition: >
+    The amount and types of risk a firm is willing to accept. Conceptually it is the firm's identity: who are we,
+    and what do our stakeholders think we are?
+  key_points:
+    - Not the same as risk capacity, the maximum amount of risk a firm can absorb
+    - Has two parts, a statement of willingness to take risk and the mechanisms linking it to day-to-day risk management
+    - Firms are typically considered either conservative or entrepreneurial in their risk profile
+    - The industry is making risk appetite more explicit to boards and adding quantitative risk metrics
+    - HSBC's framework used 13 key categories, including earnings, capital, liquidity, credit, traded and operational risk
+  formulas: null
+  learning_objectives:
+    - Explain the relationship between risk appetite and a firm's risk management decisions
+
+- id: risk-mapping
+  name: Risk Mapping
+  aliases: null
+  definition: >
+    Identifying risks at the level of cash flows and timing, which the high-level risk appetite does not show.
+  key_points:
+    - E.g. mapping a manufacturer's future copper needs to understand its commodity price exposure
+    - For foreign exchange risk, first map existing positions, contracts and upcoming transactions, then set a hedging policy
+    - Some exposures need insuring, such as natural disasters, physical mishaps and cyber incidents
+  formulas: null
+  learning_objectives: null
+
+- id: risk-management-strategy-selection
+  name: 'Strategy Selection: Retain, Avoid, Mitigate, Transfer'
+  aliases: ['Accept, Avoid, Mitigate, and Transfer']
+  definition: >
+    After defining and prioritizing the most important exposures, a firm weighs the costs and benefits of
+    retaining, avoiding, mitigating or transferring each risk.
+  key_points:
+    - 'Retain: accept a risk in its entirety or part of a loss distribution'
+    - 'Avoid: risks regarded as "unnatural" to the business; some firms have a zero-tolerance policy'
+    - 'Mitigate: e.g. asking for additional collateral, or an airline buying more efficient aircraft to reduce jet fuel exposure'
+    - 'Transfer: pass some portion of risk to third parties'
+  formulas: null
+  learning_objectives:
+    - Compare strategies a firm can use to manage its risk exposures and when each is appropriate

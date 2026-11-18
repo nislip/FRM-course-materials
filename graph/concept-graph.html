@@ -136,8 +136,78 @@
 const GRAPH = {
  "edges": [
   {
+   "source": "asset-liability-management",
+   "target": "duration-analysis",
+   "type": "related"
+  },
+  {
+   "source": "asset-liability-management",
+   "target": "funding-liquidity-risk",
+   "type": "related"
+  },
+  {
+   "source": "asset-liability-management",
+   "target": "gap-analysis",
+   "type": "related"
+  },
+  {
+   "source": "bank-operational-risk",
+   "target": "basel-committee",
+   "type": "related"
+  },
+  {
+   "source": "bank-operational-risk",
+   "target": "operational-risk",
+   "type": "related"
+  },
+  {
+   "source": "bank-operational-risk",
+   "target": "risk-capital-allocation",
+   "type": "related"
+  },
+  {
+   "source": "business-risk",
+   "target": "strategic-risk",
+   "type": "related"
+  },
+  {
+   "source": "collateralized",
+   "target": "credit-risk",
+   "type": "related"
+  },
+  {
    "source": "commodity-price-risk",
    "target": "market-risk",
+   "type": "related"
+  },
+  {
+   "source": "credit-risk",
+   "target": "default-risk",
+   "type": "related"
+  },
+  {
+   "source": "credit-risk",
+   "target": "downgrade-risk",
+   "type": "related"
+  },
+  {
+   "source": "credit-risk",
+   "target": "exposure-at-default",
+   "type": "related"
+  },
+  {
+   "source": "credit-risk",
+   "target": "herstatt-risk",
+   "type": "related"
+  },
+  {
+   "source": "credit-risk",
+   "target": "loss-given-default",
+   "type": "related"
+  },
+  {
+   "source": "credit-risk",
+   "target": "probability-of-default",
    "type": "related"
   },
   {
@@ -146,8 +216,63 @@ const GRAPH = {
    "type": "related"
   },
   {
+   "source": "default-risk",
+   "target": "probability-of-default",
+   "type": "related"
+  },
+  {
+   "source": "delta",
+   "target": "theta",
+   "type": "related"
+  },
+  {
+   "source": "economic-capital",
+   "target": "raroc",
+   "type": "related"
+  },
+  {
+   "source": "economic-capital",
+   "target": "risk-capital-allocation",
+   "type": "related"
+  },
+  {
+   "source": "economic-capital",
+   "target": "unexpected-loss",
+   "type": "related"
+  },
+  {
    "source": "equity-risk",
    "target": "market-risk",
+   "type": "related"
+  },
+  {
+   "source": "expected-loss",
+   "target": "exposure-at-default",
+   "type": "related"
+  },
+  {
+   "source": "expected-loss",
+   "target": "loss-given-default",
+   "type": "related"
+  },
+  {
+   "source": "expected-loss",
+   "target": "probability-of-default",
+   "type": "related"
+  },
+  {
+   "source": "expected-loss",
+   "target": "unexpected-loss",
+   "type": "related"
+  },
+  {
+   "source": "expected-shortfall",
+   "target": "tail-risk",
+   "type": "related"
+  },
+  {
+   "source": "expected-shortfall",
+   "target": "value-at-risk",
    "type": "related"
   },
   {
@@ -156,8 +281,58 @@ const GRAPH = {
    "type": "related"
   },
   {
+   "source": "exposure-at-default",
+   "target": "loss-given-default",
+   "type": "related"
+  },
+  {
+   "source": "exposure-at-default",
+   "target": "probability-of-default",
+   "type": "related"
+  },
+  {
+   "source": "extreme-value-theory",
+   "target": "tail-risk",
+   "type": "related"
+  },
+  {
+   "source": "funding-liquidity-risk",
+   "target": "liquidity-risk",
+   "type": "related"
+  },
+  {
+   "source": "general-market-risk",
+   "target": "market-risk",
+   "type": "related"
+  },
+  {
+   "source": "general-market-risk",
+   "target": "specific-market-risk",
+   "type": "related"
+  },
+  {
    "source": "interest-rate-risk",
    "target": "market-risk",
+   "type": "related"
+  },
+  {
+   "source": "key-performance-indicator",
+   "target": "key-risk-indicator",
+   "type": "related"
+  },
+  {
+   "source": "liquidity-risk",
+   "target": "market-liquidity-risk",
+   "type": "related"
+  },
+  {
+   "source": "loss-given-default",
+   "target": "probability-of-default",
+   "type": "related"
+  },
+  {
+   "source": "market-risk",
+   "target": "specific-market-risk",
    "type": "related"
   },
   {
@@ -169,9 +344,35 @@ const GRAPH = {
    "source": "parametric-var",
    "target": "value-at-risk",
    "type": "uses-concept"
+  },
+  {
+   "source": "reverse-stress-testing",
+   "target": "stress-testing",
+   "type": "related"
+  },
+  {
+   "source": "risk-appetite",
+   "target": "risk-capacity",
+   "type": "related"
   }
  ],
  "nodes": [
+  {
+   "aliases": [
+    "ALM"
+   ],
+   "complete": true,
+   "definition": "Managing the match between a bank's assets and liabilities to reduce funding liquidity risk; it lies at the heart of the banking business.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "asset-liability-management",
+   "kind": "term",
+   "latex": null,
+   "name": "Asset/Liability Management",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
   {
    "aliases": [],
    "complete": false,
@@ -187,10 +388,92 @@ const GRAPH = {
    "source": null
   },
   {
-   "aliases": [],
-   "complete": false,
-   "definition": null,
+   "aliases": [
+    "Basel Committee",
+    "BCBS"
+   ],
+   "complete": true,
+   "definition": "A group of big-country banking regulators who get together to set shared \"best practice\" rules for banks.",
    "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "basel-committee",
+   "kind": "term",
+   "latex": null,
+   "name": "Basel Committee on Banking Supervision",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Risk Identification Techniques"
+   ],
+   "complete": true,
+   "definition": "Techniques for gathering information about the risks a firm faces and judging their frequency and severity.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Brainstorming: discussions with representatives from different business divisions about their exposures",
+      "Structured interviews with professionals inside or outside the company",
+      "Industry resources: checklists, professional and regulatory standards, industry surveys",
+      "Loss data analysis: frequency and severity of loss events and how they relate to risk factors",
+      "Basic risk triage: not every risk is quantifiable, but its frequency and severity can be judged",
+      "What-if analysis of worst-case scenarios",
+      "Include front-line staff in risk information gathering",
+      "Follow the trail of key processes to find weaknesses or gaps"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "brainstorming-and-triaging-risks",
+   "kind": "concept",
+   "latex": null,
+   "name": "Brainstorming and Triaging Risks",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Risk arising from day-to-day business matters such as customer demand, pricing decisions, supplier negotiations, competition and product innovation.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "business-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Business Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Backed by something valuable that the lender can take if the borrower doesn't pay.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "collateralized",
+   "kind": "term",
+   "latex": null,
+   "name": "Collateralized",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The chance you lose money because the prices of raw materials (commodities) suddenly change.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Hedging jet fuel with crude oil futures can fail if the historical relationship between the two prices breaks down"
+     ]
+    }
+   ],
    "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
    "id": "commodity-price-risk",
    "kind": "term",
@@ -202,9 +485,18 @@ const GRAPH = {
   },
   {
    "aliases": [],
-   "complete": false,
-   "definition": null,
-   "details": [],
+   "complete": true,
+   "definition": "The failure of one party to fulfill its financial obligations to another party. It is driven by the probability of default, the exposure amount at default, and the amount that can be recovered.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "A debtor fails to pay interest or principal on a loan (bankruptcy or default risk)",
+      "An obligor or counterparty is downgraded (downgrade risk)",
+      "A counterparty to a market trade fails to perform, including settlement (Herstatt) risk"
+     ]
+    }
+   ],
    "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
    "id": "credit-risk",
    "kind": "term",
@@ -229,15 +521,131 @@ const GRAPH = {
    "source": null
   },
   {
-   "aliases": [],
-   "complete": false,
-   "definition": null,
+   "aliases": [
+    "Bankruptcy Risk"
+   ],
+   "complete": true,
+   "definition": "The risk that a debtor fails to pay interest or principal on a loan.",
    "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "default-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Default Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "An option greek: the sensitivity of option value to a change in the value of the underlying.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "delta",
+   "kind": "term",
+   "latex": null,
+   "name": "Delta",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The risk that an obligor or counterparty is downgraded, signalling higher risk that may lead to an immediate loss in value of a credit-linked security.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "downgrade-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Downgrade Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "An ALM technique, alongside gap analysis, for checking whether a firm's money is lined up correctly over time.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "duration-analysis",
+   "kind": "term",
+   "latex": null,
+   "name": "Duration Analysis",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Risk Capital",
+    "EC"
+   ],
+   "complete": true,
+   "definition": "The amount of capital the firm requires based on its understanding of its economic risks; it should be large enough to absorb unexpected losses. Not the same as regulatory capital.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "economic-capital",
+   "kind": "term",
+   "latex": null,
+   "name": "Economic Capital",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The chance that you can lose money because stock prices go down.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "A stock worth $100 falls to $80; the $20 difference is equity risk"
+     ]
+    }
+   ],
    "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
    "id": "equity-risk",
    "kind": "term",
    "latex": null,
    "name": "Equity Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "EL"
+   ],
+   "complete": true,
+   "definition": "The average loss a position taker might expect to incur from a position or portfolio. It is a function of the probability of the risk event, the firm's exposure to it, and the severity of the loss if it occurs.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "expected-loss",
+   "kind": "term",
+   "latex": null,
+   "name": "Expected Loss",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Conditional Value at Risk",
+    "ES",
+    "CVaR"
+   ],
+   "complete": true,
+   "definition": "For a given tail probability, the average of the losses beyond the VaR at that probability. It addresses VaR's failure to quantify risk in the tail of the loss distribution.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "expected-shortfall",
+   "kind": "term",
+   "latex": null,
+   "name": "Expected Shortfall",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
    "source": null
@@ -257,10 +665,148 @@ const GRAPH = {
    "source": null
   },
   {
-   "aliases": [],
-   "complete": false,
-   "definition": null,
+   "aliases": [
+    "EAD"
+   ],
+   "complete": true,
+   "definition": "The exposure amount at the time of default; one of the levers that drives credit risk.",
    "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "exposure-at-default",
+   "kind": "term",
+   "latex": null,
+   "name": "Exposure at Default",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "EVT"
+   ],
+   "complete": true,
+   "definition": "A statistical technique used to identify tail risk events.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "extreme-value-theory",
+   "kind": "term",
+   "latex": null,
+   "name": "Extreme Value Theory",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The risk that a firm cannot access enough liquid cash and assets to meet its obligations.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Start-ups that find it difficult to pay bills quickly while also funding future endeavors",
+      "Banks taking short-term deposits and lending the money out for the longer term (a funding mismatch)"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "funding-liquidity-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Funding Liquidity Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "A simple way for a bank (or any company) to check whether money coming in and money going out are lined up over time, so it doesn't run out of cash when bills are due.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "gap-analysis",
+   "kind": "term",
+   "latex": null,
+   "name": "Gap Analysis",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The risk that an asset class will fall in value, leading to a fall in the value of an individual asset or portfolio.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "general-market-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "General Market Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Just because a risk can be hedged does not mean it should be; hedging is intended to reduce the chance of financial distress but has both transparent and opaque costs.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Costs can be transparent (option premiums) or opaque (tactical errors, rogue trading)",
+      "Theoretical arguments against hedging assume perfect, frictionless markets, but there are many imperfections",
+      "Hedging can increase cash flows, e.g. letting a firm offer customers a stable price by hedging a key cost input",
+      "Equity investors concentrated in one firm generally want managers to hedge; diversified investors generally do not",
+      "Risk management instruments can themselves have negative consequences"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Evaluate the advantages and disadvantages of hedging and the challenges of implementing a hedging strategy"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "hedging-philosophy",
+   "kind": "concept",
+   "latex": null,
+   "name": "Hedging Philosophy",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Settlement Risk"
+   ],
+   "complete": true,
+   "definition": "The risk that a counterparty to a market trade fails to perform at settlement: \"paid first, didn't receive later\". Named after the Herstatt bank in Germany.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "herstatt-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Herstatt Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Rates can move, and that can hurt financially.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "If rates go up, the value of many existing bonds usually goes down, because new bonds pay higher interest",
+      "A loan with a variable (floating) rate has higher payments when rates rise",
+      "If rates go down, old bonds can be worth more and variable-rate loan payments can fall"
+     ]
+    }
+   ],
    "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
    "id": "interest-rate-risk",
    "kind": "term",
@@ -271,15 +817,80 @@ const GRAPH = {
    "source": null
   },
   {
+   "aliases": [
+    "KPI"
+   ],
+   "complete": true,
+   "definition": "A metric that tracks some performance factor associated with risk.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "key-performance-indicator",
+   "kind": "term",
+   "latex": null,
+   "name": "Key Performance Indicator",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "KRI"
+   ],
+   "complete": true,
+   "definition": "A metric that tracks some factor closely associated with risk.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "key-risk-indicator",
+   "kind": "term",
+   "latex": null,
+   "name": "Key Risk Indicator",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
    "aliases": [],
-   "complete": false,
-   "definition": null,
+   "complete": true,
+   "definition": "Liquidity risk is really two separate kinds of risk: funding liquidity risk and market (trading) liquidity risk.",
    "details": [],
    "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
    "id": "liquidity-risk",
    "kind": "term",
    "latex": null,
    "name": "Liquidity Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Severity Given Default",
+    "LGD"
+   ],
+   "complete": true,
+   "definition": "The severity of the loss if a default occurs, which depends on the amount that can be recovered.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "loss-given-default",
+   "kind": "term",
+   "latex": null,
+   "name": "Loss Given Default",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Trading Liquidity Risk"
+   ],
+   "complete": true,
+   "definition": "The risk of a loss in asset value when markets temporarily seize up, which may force a seller to accept an abnormally low price or leave them unable to turn an asset into cash at any price.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "market-liquidity-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Market Liquidity Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
    "source": null
@@ -294,6 +905,30 @@ const GRAPH = {
    "kind": "term",
    "latex": null,
    "name": "Market Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The risk of loss resulting from inadequate or failed internal processes, people, and systems or from external events. Includes legal risk, but excludes business, strategic and reputational risk.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Anti-money laundering risk",
+      "Cyber risk",
+      "Terrorist attacks",
+      "Rogue trading"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "operational-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Operational Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
    "source": null
@@ -386,6 +1021,534 @@ const GRAPH = {
   },
   {
    "aliases": [
+    "PD"
+   ],
+   "complete": true,
+   "definition": "The likelihood that the obligor or counterparty defaults; one of the levers that drives credit risk. It is assessed through risk factors such as key financial ratios, industry sector and obligor concentration.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "probability-of-default",
+   "kind": "term",
+   "latex": null,
+   "name": "Probability of Default",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "RAROC"
+   ],
+   "complete": true,
+   "definition": "A measure banks use to factor in the cost of both expected and unexpected losses, comparing reward (after-tax net risk-adjusted expected return) to risk (economic capital).",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "To add shareholder value, RAROC should be higher than the cost of equity capital",
+      "Business comparison: compare business lines with varying levels of economic capital",
+      "Investment analysis: use projected numbers to assess likely returns from future investments",
+      "Pricing strategies: re-examine pricing for different customer segments",
+      "Risk management and cost-benefit analysis: compare the cost of risk management"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Interpret the relationship between risk and reward"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "raroc",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk-Adjusted Return on Capital",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Reputational Risk"
+   ],
+   "complete": true,
+   "definition": "The danger that a firm will suffer a sudden fall in its market standing or brand with economic consequences. It typically comes from the failure of another area of risk.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "A firm misrepresents a product's risks and loses important customers",
+      "A bank loses the trust of a regulator and is heavily criticized or curtailed"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "reputation-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Reputation Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Starts from how bad losses could get and then works backward.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "reverse-stress-testing",
+   "kind": "term",
+   "latex": null,
+   "name": "Reverse Stress Testing",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Combining risk exposures across positions and markets into a common measure, which is difficult because specialist measures do not add up.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Option greeks such as delta and theta cannot be added together and do not imply the same risk across markets",
+      "VaR is a popular aggregation method but has shortcomings, notably ignoring tail risk",
+      "Expected shortfall, stress testing and reverse stress testing were responses after the crisis"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Describe challenges in aggregating risk exposures"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "risk-aggregation",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk Aggregation",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The amount and types of risk a firm is willing to accept. Conceptually it is the firm's identity: who are we, and what do our stakeholders think we are?",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Not the same as risk capacity, the maximum amount of risk a firm can absorb",
+      "Has two parts, a statement of willingness to take risk and the mechanisms linking it to day-to-day risk management",
+      "Firms are typically considered either conservative or entrepreneurial in their risk profile",
+      "The industry is making risk appetite more explicit to boards and adding quantitative risk metrics",
+      "HSBC's framework used 13 key categories, including earnings, capital, liquidity, credit, traded and operational risk"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Explain the relationship between risk appetite and a firm's risk management decisions"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "risk-appetite",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk Appetite",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The maximum amount of risk a firm can absorb. Not the same as risk appetite.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "risk-capacity",
+   "kind": "term",
+   "latex": null,
+   "name": "Risk Capacity",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "How a bank decides to split up a safety cushion of money across different kinds of risks.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "risk-capital-allocation",
+   "kind": "term",
+   "latex": null,
+   "name": "Risk Capital Allocation",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Ten building blocks of risk management; most \"disasters\" associated with risk management are caused by the failure to recognize them.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "The risk management process",
+      "Identifying risk: knowns and unknowns",
+      "Expected loss, unexpected loss, and tail loss",
+      "Risk factor breakdown",
+      "Structural change: from tail risk to systemic crisis",
+      "Human agency and conflicts of interest",
+      "Typology of risks and risk interactions",
+      "Risk aggregation",
+      "Balancing risk and reward",
+      "Enterprise risk management (ERM)"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Explain the concept of risk and how risk management differs from risk taking"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "risk-management-building-blocks",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk Management Building Blocks",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The high-level cycle a risk manager follows: identify, analyze, manage, and assess the impact of risks.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Identify: name, categorize, understand",
+      "Analyze: rank, score, measure, and quantify",
+      "Manage: avoid, retain, mitigate, or transfer",
+      "Assess impact: effects, knock-ons, repercussions",
+      "Avoid risks by discontinuing the business or pursuing it with a different strategy",
+      "Retain risks within the firm's risk appetite, e.g. via risk capital allocation, self-insurance or captive insurance",
+      "Mitigate risks by reducing exposure, frequency, and severity",
+      "Transfer risks to a third party using derivatives, structured products, or by paying a premium"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Evaluate and apply tools and procedures used to measure and manage risk"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "risk-management-process",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk Management Process",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The sequence of questions a firm should answer to manage risk, from identifying its risk appetite through implementing and regularly re-evaluating its approach.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Identify risk appetite: key corporate goals and risks, whether and which risks to manage, a broad risk appetite statement",
+      "Map risks and make choices: measure risk and impact, run risk/reward analysis (e.g. RAROC), choose a basic strategy",
+      "Operationalize risk appetite: risk policies, a risk limit framework, and a right-sized risk management team",
+      "Implement: choose tactics and instruments, make day-to-day decisions, establish oversight",
+      "Re-evaluate regularly to capture changes in risk appetite, business activity, the risk environment and new tools"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Compare strategies a firm can use to manage its risk exposures and when each is appropriate"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "risk-management-roadmap",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk Management Roadmap",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Accept, Avoid, Mitigate, and Transfer"
+   ],
+   "complete": true,
+   "definition": "After defining and prioritizing the most important exposures, a firm weighs the costs and benefits of retaining, avoiding, mitigating or transferring each risk.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Retain: accept a risk in its entirety or part of a loss distribution",
+      "Avoid: risks regarded as \"unnatural\" to the business; some firms have a zero-tolerance policy",
+      "Mitigate: e.g. asking for additional collateral, or an airline buying more efficient aircraft to reduce jet fuel exposure",
+      "Transfer: pass some portion of risk to third parties"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Compare strategies a firm can use to manage its risk exposures and when each is appropriate"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "risk-management-strategy-selection",
+   "kind": "concept",
+   "latex": null,
+   "name": "Strategy Selection: Retain, Avoid, Mitigate, Transfer",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Identifying risks at the level of cash flows and timing, which the high-level risk appetite does not show.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "E.g. mapping a manufacturer's future copper needs to understand its commodity price exposure",
+      "For foreign exchange risk, first map existing positions, contracts and upcoming transactions, then set a hedging policy",
+      "Some exposures need insuring, such as natural disasters, physical mishaps and cyber incidents"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "risk-mapping",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk Mapping",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Knowns and Unknowns"
+   ],
+   "complete": true,
+   "definition": "Frank Knight and John Maynard Keynes distinguished measurable risk, which can be quantified with statistics, from uncertainty, which cannot be quantified at all.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Risk is measurable; uncertainty is not",
+      "Rumsfeld: known knowns, known unknowns, and unknown unknowns",
+      "Nuclear war is a possibility, but its likelihood cannot be quantified",
+      "Frank Knight, Risk, Uncertainty and Profit (1921)"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "risk-versus-uncertainty",
+   "kind": "concept",
+   "latex": null,
+   "name": "Risk versus Uncertainty",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The risk that an individual asset will fall in value more than the general asset class.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "specific-market-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Specific Market Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "Risk from large, long-term decisions about the firm's direction, major investments of capital, human resources, and management reputation.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Banks deciding whether to build FinTech services internally, acquire FinTech companies, or partner with them"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "strategic-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Strategic Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Scenario Testing"
+   ],
+   "complete": true,
+   "definition": "Imagining a plausible worst-case scenario that may develop in stages over an extended period; it focuses on severity rather than frequency.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "stress-testing",
+   "kind": "term",
+   "latex": null,
+   "name": "Stress Testing",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
+    "Outliers"
+   ],
+   "complete": true,
+   "definition": "Very rare and extreme events, which may arise from unobserved structural changes in a market. They are difficult to identify, but a long time series of data should reveal evidence of them.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Subprime mortgage lending in the early 2000s and its contribution to the global financial crisis"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "tail-risk",
+   "kind": "term",
+   "latex": null,
+   "name": "Tail Risk",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "An option greek: the change in option value as the option expiration date approaches.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "theta",
+   "kind": "term",
+   "latex": null,
+   "name": "Theta",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "A way of organizing risk oversight into the business line, specialist risk managers, and independent assurance.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "First: the business line that generates, owns and manages risk",
+      "Second: risk managers who specialize in risk management and day-to-day oversight",
+      "Third: periodic independent oversight and assurance, such as internal audit"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Explain how conflicts of interest can impact risk management"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "three-lines-of-defense",
+   "kind": "concept",
+   "latex": null,
+   "name": "Three Lines of Defense",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The classes of risk a firm faces and the way they flow into one another.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Market and credit risks are a natural part of a bank's risk structure; risk scales with reward",
+      "More operational risk does not lead to greater reward, so banks avoid it when they can",
+      "Risk types interact, e.g. an operational risk leads to a dangerous market position that ultimately ruins reputation",
+      "Mismatching price movements are typically a bigger problem than any single market risk exposure",
+      "A credit portfolio is riskier with fewer large loans, positively correlated defaults, and positively correlated EAD, PD and LGD"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Describe the key classes of risk, how each arises, and its potential impact on an organization",
+      "Explain how risk factors interact with each other"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "typology-of-risks",
+   "kind": "concept",
+   "latex": null,
+   "name": "Typology of Risks and Risk Interactions",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [],
+   "complete": true,
+   "definition": "The extent to which losses depart from the average (expected) loss level.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "A portfolio with one very large loan defaulting versus a large number of small loans",
+      "Commercial real estate losses that follow regular boom-and-bust cycles"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/01_building-blocks-risk-management.yaml",
+   "id": "unexpected-loss",
+   "kind": "term",
+   "latex": null,
+   "name": "Unexpected Loss",
+   "part": "frm-part-I",
+   "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  {
+   "aliases": [
     "VaR"
    ],
    "complete": true,
@@ -395,7 +1558,10 @@ const GRAPH = {
      "field": "key_points",
      "value": [
       "Needs three inputs: confidence level, horizon, and a loss distribution",
-      "Can be estimated parametrically, by historical simulation, or by Monte Carlo"
+      "Can be estimated parametrically, by historical simulation, or by Monte Carlo",
+      "Fails to capture risk in the tail of the loss distribution; expected shortfall addresses this",
+      "Helps compare the risk exposures of different business lines",
+      "Popular for risk aggregation, but was never calculated with one set methodology, so use it with caution"
      ]
     },
     {

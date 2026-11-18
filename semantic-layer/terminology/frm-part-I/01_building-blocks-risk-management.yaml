@@ -2,19 +2,25 @@
   name: Equity Risk
   aliases: null
   acronyms: null
-  definition: null
+  definition: >
+    The chance that you can lose money because stock prices go down.
   related: [market-risk]
   notation: null
-  examples: null
+  examples:
+    - A stock worth $100 falls to $80; the $20 difference is equity risk
 
 - id: interest-rate-risk
   name: Interest Rate Risk
   aliases: null
   acronyms: null
-  definition: null
+  definition: >
+    Rates can move, and that can hurt financially.
   related: [market-risk]
   notation: null
-  examples: null
+  examples:
+    - If rates go up, the value of many existing bonds usually goes down, because new bonds pay higher interest
+    - A loan with a variable (floating) rate has higher payments when rates rise
+    - If rates go down, old bonds can be worth more and variable-rate loan payments can fall
 
 - id: currency-risk
   name: Currency Risk
@@ -29,10 +35,12 @@
   name: Commodity Price Risk
   aliases: null
   acronyms: null
-  definition: null
+  definition: >
+    The chance you lose money because the prices of raw materials (commodities) suddenly change.
   related: [market-risk]
   notation: null
-  examples: null
+  examples:
+    - Hedging jet fuel with crude oil futures can fail if the historical relationship between the two prices breaks down
 
 - id: market-risk
   name: Market Risk
@@ -41,7 +49,7 @@
   definition: >
     The change in market prices can drive the value of securities and other assets up and down. Price volatility is the engine of market risk.
     Depending on the underlying asset, risk can take different forms such as Equity Risk, Interest Rate Risk, Currency Risk and Commodity Price Risk.
-  related: [equity-risk, interest-rate-risk, currency-risk, commodity-price-risk]
+  related: [equity-risk, interest-rate-risk, currency-risk, commodity-price-risk, general-market-risk, specific-market-risk]
   notation: null
   examples: null
 
@@ -49,17 +57,23 @@
   name: Credit Risk
   aliases: null
   acronyms: null
-  definition: null
-  related: []
+  definition: >
+    The failure of one party to fulfill its financial obligations to another party. It is driven by the
+    probability of default, the exposure amount at default, and the amount that can be recovered.
+  related: [default-risk, downgrade-risk, herstatt-risk, probability-of-default, exposure-at-default, loss-given-default, collateralized]
   notation: null
-  examples: null
+  examples:
+    - A debtor fails to pay interest or principal on a loan (bankruptcy or default risk)
+    - An obligor or counterparty is downgraded (downgrade risk)
+    - A counterparty to a market trade fails to perform, including settlement (Herstatt) risk
 
 - id: liquidity-risk
   name: Liquidity Risk
   aliases: null
   acronyms: null
-  definition: null
-  related: []
+  definition: >
+    Liquidity risk is really two separate kinds of risk: funding liquidity risk and market (trading) liquidity risk.
+  related: [funding-liquidity-risk, market-liquidity-risk]
   notation: null
   examples: null
 
@@ -68,6 +82,353 @@
   aliases: null
   acronyms: null
   definition: null
+  related: [operational-risk, basel-committee, risk-capital-allocation]
+  notation: null
+  examples: null
+
+- id: general-market-risk
+  name: General Market Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    The risk that an asset class will fall in value, leading to a fall in the value of an individual asset or portfolio.
+  related: [market-risk, specific-market-risk]
+  notation: null
+  examples: null
+
+- id: specific-market-risk
+  name: Specific Market Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    The risk that an individual asset will fall in value more than the general asset class.
+  related: [market-risk, general-market-risk]
+  notation: null
+  examples: null
+
+- id: default-risk
+  name: Default Risk
+  aliases: [Bankruptcy Risk]
+  acronyms: null
+  definition: >
+    The risk that a debtor fails to pay interest or principal on a loan.
+  related: [credit-risk, probability-of-default]
+  notation: null
+  examples: null
+
+- id: downgrade-risk
+  name: Downgrade Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    The risk that an obligor or counterparty is downgraded, signalling higher risk that may lead to an immediate
+    loss in value of a credit-linked security.
+  related: [credit-risk]
+  notation: null
+  examples: null
+
+- id: herstatt-risk
+  name: Herstatt Risk
+  aliases: [Settlement Risk]
+  acronyms: null
+  definition: >
+    The risk that a counterparty to a market trade fails to perform at settlement: "paid first, didn't receive later".
+    Named after the Herstatt bank in Germany.
+  related: [credit-risk]
+  notation: null
+  examples: null
+
+- id: probability-of-default
+  name: Probability of Default
+  aliases: null
+  acronyms: [PD]
+  definition: >
+    The likelihood that the obligor or counterparty defaults; one of the levers that drives credit risk. It is
+    assessed through risk factors such as key financial ratios, industry sector and obligor concentration.
+  related: [credit-risk, default-risk, exposure-at-default, loss-given-default, expected-loss]
+  notation: null
+  examples: null
+
+- id: exposure-at-default
+  name: Exposure at Default
+  aliases: null
+  acronyms: [EAD]
+  definition: >
+    The exposure amount at the time of default; one of the levers that drives credit risk.
+  related: [credit-risk, probability-of-default, loss-given-default, expected-loss]
+  notation: null
+  examples: null
+
+- id: loss-given-default
+  name: Loss Given Default
+  aliases: [Severity Given Default]
+  acronyms: [LGD]
+  definition: >
+    The severity of the loss if a default occurs, which depends on the amount that can be recovered.
+  related: [credit-risk, probability-of-default, exposure-at-default, expected-loss]
+  notation: null
+  examples: null
+
+- id: collateralized
+  name: Collateralized
+  aliases: null
+  acronyms: null
+  definition: >
+    Backed by something valuable that the lender can take if the borrower doesn't pay.
+  related: [credit-risk]
+  notation: null
+  examples: null
+
+- id: funding-liquidity-risk
+  name: Funding Liquidity Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    The risk that a firm cannot access enough liquid cash and assets to meet its obligations.
+  related: [liquidity-risk, asset-liability-management]
+  notation: null
+  examples:
+    - Start-ups that find it difficult to pay bills quickly while also funding future endeavors
+    - Banks taking short-term deposits and lending the money out for the longer term (a funding mismatch)
+
+- id: market-liquidity-risk
+  name: Market Liquidity Risk
+  aliases: [Trading Liquidity Risk]
+  acronyms: null
+  definition: >
+    The risk of a loss in asset value when markets temporarily seize up, which may force a seller to accept an
+    abnormally low price or leave them unable to turn an asset into cash at any price.
+  related: [liquidity-risk]
+  notation: null
+  examples: null
+
+- id: asset-liability-management
+  name: Asset/Liability Management
+  aliases: null
+  acronyms: [ALM]
+  definition: >
+    Managing the match between a bank's assets and liabilities to reduce funding liquidity risk; it lies at the
+    heart of the banking business.
+  related: [funding-liquidity-risk, gap-analysis, duration-analysis]
+  notation: null
+  examples: null
+
+- id: gap-analysis
+  name: Gap Analysis
+  aliases: null
+  acronyms: null
+  definition: >
+    A simple way for a bank (or any company) to check whether money coming in and money going out are lined up
+    over time, so it doesn't run out of cash when bills are due.
+  related: [asset-liability-management]
+  notation: null
+  examples: null
+
+- id: duration-analysis
+  name: Duration Analysis
+  aliases: null
+  acronyms: null
+  definition: >
+    An ALM technique, alongside gap analysis, for checking whether a firm's money is lined up correctly over time.
+  related: [asset-liability-management]
+  notation: null
+  examples: null
+
+- id: operational-risk
+  name: Operational Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    The risk of loss resulting from inadequate or failed internal processes, people, and systems or from external
+    events. Includes legal risk, but excludes business, strategic and reputational risk.
+  related: [bank-operational-risk]
+  notation: null
+  examples:
+    - Anti-money laundering risk
+    - Cyber risk
+    - Terrorist attacks
+    - Rogue trading
+
+- id: business-risk
+  name: Business Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    Risk arising from day-to-day business matters such as customer demand, pricing decisions, supplier
+    negotiations, competition and product innovation.
+  related: [strategic-risk]
+  notation: null
+  examples: null
+
+- id: strategic-risk
+  name: Strategic Risk
+  aliases: null
+  acronyms: null
+  definition: >
+    Risk from large, long-term decisions about the firm's direction, major investments of capital, human
+    resources, and management reputation.
+  related: [business-risk]
+  notation: null
+  examples:
+    - Banks deciding whether to build FinTech services internally, acquire FinTech companies, or partner with them
+
+- id: reputation-risk
+  name: Reputation Risk
+  aliases: [Reputational Risk]
+  acronyms: null
+  definition: >
+    The danger that a firm will suffer a sudden fall in its market standing or brand with economic consequences.
+    It typically comes from the failure of another area of risk.
   related: []
+  notation: null
+  examples:
+    - A firm misrepresents a product's risks and loses important customers
+    - A bank loses the trust of a regulator and is heavily criticized or curtailed
+
+- id: basel-committee
+  name: Basel Committee on Banking Supervision
+  aliases: [Basel Committee]
+  acronyms: [BCBS]
+  definition: >
+    A group of big-country banking regulators who get together to set shared "best practice" rules for banks.
+  related: [bank-operational-risk]
+  notation: null
+  examples: null
+
+- id: risk-capital-allocation
+  name: Risk Capital Allocation
+  aliases: null
+  acronyms: null
+  definition: >
+    How a bank decides to split up a safety cushion of money across different kinds of risks.
+  related: [bank-operational-risk, economic-capital]
+  notation: null
+  examples: null
+
+- id: expected-loss
+  name: Expected Loss
+  aliases: null
+  acronyms: [EL]
+  definition: >
+    The average loss a position taker might expect to incur from a position or portfolio. It is a function of the
+    probability of the risk event, the firm's exposure to it, and the severity of the loss if it occurs.
+  related: [unexpected-loss, probability-of-default, exposure-at-default, loss-given-default]
+  notation: null
+  examples: null
+
+- id: unexpected-loss
+  name: Unexpected Loss
+  aliases: null
+  acronyms: null
+  definition: >
+    The extent to which losses depart from the average (expected) loss level.
+  related: [expected-loss, economic-capital]
+  notation: null
+  examples:
+    - A portfolio with one very large loan defaulting versus a large number of small loans
+    - Commercial real estate losses that follow regular boom-and-bust cycles
+
+- id: expected-shortfall
+  name: Expected Shortfall
+  aliases: [Conditional Value at Risk]
+  acronyms: [ES, CVaR]
+  definition: >
+    For a given tail probability, the average of the losses beyond the VaR at that probability. It addresses
+    VaR's failure to quantify risk in the tail of the loss distribution.
+  related: [value-at-risk, tail-risk]
+  notation: null
+  examples: null
+
+- id: tail-risk
+  name: Tail Risk
+  aliases: [Outliers]
+  acronyms: null
+  definition: >
+    Very rare and extreme events, which may arise from unobserved structural changes in a market. They are
+    difficult to identify, but a long time series of data should reveal evidence of them.
+  related: [expected-shortfall, extreme-value-theory]
+  notation: null
+  examples:
+    - Subprime mortgage lending in the early 2000s and its contribution to the global financial crisis
+
+- id: extreme-value-theory
+  name: Extreme Value Theory
+  aliases: null
+  acronyms: [EVT]
+  definition: >
+    A statistical technique used to identify tail risk events.
+  related: [tail-risk]
+  notation: null
+  examples: null
+
+- id: stress-testing
+  name: Stress Testing
+  aliases: [Scenario Testing]
+  acronyms: null
+  definition: >
+    Imagining a plausible worst-case scenario that may develop in stages over an extended period; it focuses on
+    severity rather than frequency.
+  related: [reverse-stress-testing]
+  notation: null
+  examples: null
+
+- id: reverse-stress-testing
+  name: Reverse Stress Testing
+  aliases: null
+  acronyms: null
+  definition: >
+    Starts from how bad losses could get and then works backward.
+  related: [stress-testing]
+  notation: null
+  examples: null
+
+- id: economic-capital
+  name: Economic Capital
+  aliases: [Risk Capital]
+  acronyms: [EC]
+  definition: >
+    The amount of capital the firm requires based on its understanding of its economic risks; it should be large
+    enough to absorb unexpected losses. Not the same as regulatory capital.
+  related: [unexpected-loss, risk-capital-allocation, raroc]
+  notation: null
+  examples: null
+
+- id: delta
+  name: Delta
+  aliases: null
+  acronyms: null
+  definition: >
+    An option greek: the sensitivity of option value to a change in the value of the underlying.
+  related: [theta]
+  notation: null
+  examples: null
+
+- id: theta
+  name: Theta
+  aliases: null
+  acronyms: null
+  definition: >
+    An option greek: the change in option value as the option expiration date approaches.
+  related: [delta]
+  notation: null
+  examples: null
+
+- id: key-risk-indicator
+  name: Key Risk Indicator
+  aliases: null
+  acronyms: [KRI]
+  definition: >
+    A metric that tracks some factor closely associated with risk.
+  related: [key-performance-indicator]
+  notation: null
+  examples: null
+
+- id: key-performance-indicator
+  name: Key Performance Indicator
+  aliases: null
+  acronyms: [KPI]
+  definition: >
+    A metric that tracks some performance factor associated with risk.
+  related: [key-risk-indicator]
   notation: null
   examples: null

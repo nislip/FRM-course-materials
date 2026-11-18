@@ -7,6 +7,138 @@
   key_points:
     - 'Needs three inputs: confidence level, horizon, and a loss distribution'
     - Can be estimated parametrically, by historical simulation, or by Monte Carlo
+    - Fails to capture risk in the tail of the loss distribution; expected shortfall addresses this
+    - Helps compare the risk exposures of different business lines
+    - Popular for risk aggregation, but was never calculated with one set methodology, so use it with caution
   formulas: [parametric-var]          # back-link to formulas/
   learning_objectives:                # GARP AIMs, paraphrased
     - Define VaR and explain its limitations as a risk measure
+
+- id: risk-management-building-blocks
+  name: Risk Management Building Blocks
+  aliases: null
+  definition: >
+    Ten building blocks of risk management; most "disasters" associated with risk management are caused by the
+    failure to recognize them.
+  key_points:
+    - The risk management process
+    - 'Identifying risk: knowns and unknowns'
+    - Expected loss, unexpected loss, and tail loss
+    - Risk factor breakdown
+    - 'Structural change: from tail risk to systemic crisis'
+    - Human agency and conflicts of interest
+    - Typology of risks and risk interactions
+    - Risk aggregation
+    - Balancing risk and reward
+    - Enterprise risk management (ERM)
+  formulas: null
+  learning_objectives:
+    - Explain the concept of risk and how risk management differs from risk taking
+
+- id: risk-management-process
+  name: Risk Management Process
+  aliases: null
+  definition: >
+    The high-level cycle a risk manager follows: identify, analyze, manage, and assess the impact of risks.
+  key_points:
+    - 'Identify: name, categorize, understand'
+    - 'Analyze: rank, score, measure, and quantify'
+    - 'Manage: avoid, retain, mitigate, or transfer'
+    - 'Assess impact: effects, knock-ons, repercussions'
+    - Avoid risks by discontinuing the business or pursuing it with a different strategy
+    - Retain risks within the firm's risk appetite, e.g. via risk capital allocation, self-insurance or captive insurance
+    - Mitigate risks by reducing exposure, frequency, and severity
+    - Transfer risks to a third party using derivatives, structured products, or by paying a premium
+  formulas: null
+  learning_objectives:
+    - Evaluate and apply tools and procedures used to measure and manage risk
+
+- id: brainstorming-and-triaging-risks
+  name: Brainstorming and Triaging Risks
+  aliases: [Risk Identification Techniques]
+  definition: >
+    Techniques for gathering information about the risks a firm faces and judging their frequency and severity.
+  key_points:
+    - 'Brainstorming: discussions with representatives from different business divisions about their exposures'
+    - 'Structured interviews with professionals inside or outside the company'
+    - 'Industry resources: checklists, professional and regulatory standards, industry surveys'
+    - 'Loss data analysis: frequency and severity of loss events and how they relate to risk factors'
+    - 'Basic risk triage: not every risk is quantifiable, but its frequency and severity can be judged'
+    - 'What-if analysis of worst-case scenarios'
+    - Include front-line staff in risk information gathering
+    - Follow the trail of key processes to find weaknesses or gaps
+  formulas: null
+  learning_objectives: null
+
+- id: risk-versus-uncertainty
+  name: Risk versus Uncertainty
+  aliases: [Knowns and Unknowns]
+  definition: >
+    Frank Knight and John Maynard Keynes distinguished measurable risk, which can be quantified with statistics,
+    from uncertainty, which cannot be quantified at all.
+  key_points:
+    - Risk is measurable; uncertainty is not
+    - 'Rumsfeld: known knowns, known unknowns, and unknown unknowns'
+    - Nuclear war is a possibility, but its likelihood cannot be quantified
+    - Frank Knight, Risk, Uncertainty and Profit (1921)
+  formulas: null
+  learning_objectives: null
+
+- id: typology-of-risks
+  name: Typology of Risks and Risk Interactions
+  aliases: null
+  definition: >
+    The classes of risk a firm faces and the way they flow into one another.
+  key_points:
+    - Market and credit risks are a natural part of a bank's risk structure; risk scales with reward
+    - More operational risk does not lead to greater reward, so banks avoid it when they can
+    - 'Risk types interact, e.g. an operational risk leads to a dangerous market position that ultimately ruins reputation'
+    - Mismatching price movements are typically a bigger problem than any single market risk exposure
+    - A credit portfolio is riskier with fewer large loans, positively correlated defaults, and positively correlated EAD, PD and LGD
+  formulas: null
+  learning_objectives:
+    - Describe the key classes of risk, how each arises, and its potential impact on an organization
+    - Explain how risk factors interact with each other
+
+- id: three-lines-of-defense
+  name: Three Lines of Defense
+  aliases: null
+  definition: >
+    A way of organizing risk oversight into the business line, specialist risk managers, and independent assurance.
+  key_points:
+    - 'First: the business line that generates, owns and manages risk'
+    - 'Second: risk managers who specialize in risk management and day-to-day oversight'
+    - 'Third: periodic independent oversight and assurance, such as internal audit'
+  formulas: null
+  learning_objectives:
+    - Explain how conflicts of interest can impact risk management
+
+- id: risk-aggregation
+  name: Risk Aggregation
+  aliases: null
+  definition: >
+    Combining risk exposures across positions and markets into a common measure, which is difficult because
+    specialist measures do not add up.
+  key_points:
+    - Option greeks such as delta and theta cannot be added together and do not imply the same risk across markets
+    - VaR is a popular aggregation method but has shortcomings, notably ignoring tail risk
+    - Expected shortfall, stress testing and reverse stress testing were responses after the crisis
+  formulas: null
+  learning_objectives:
+    - Describe challenges in aggregating risk exposures
+
+- id: raroc
+  name: Risk-Adjusted Return on Capital
+  aliases: [RAROC]
+  definition: >
+    A measure banks use to factor in the cost of both expected and unexpected losses, comparing reward
+    (after-tax net risk-adjusted expected return) to risk (economic capital).
+  key_points:
+    - To add shareholder value, RAROC should be higher than the cost of equity capital
+    - 'Business comparison: compare business lines with varying levels of economic capital'
+    - 'Investment analysis: use projected numbers to assess likely returns from future investments'
+    - 'Pricing strategies: re-examine pricing for different customer segments'
+    - 'Risk management and cost-benefit analysis: compare the cost of risk management'
+  formulas: null
+  learning_objectives:
+    - Interpret the relationship between risk and reward
