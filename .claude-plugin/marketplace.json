@@ -1,0 +1,14 @@
+{
+  "name": "frm-course-materials",
+  "description": "FRM exam study materials for Claude Code.",
+  "owner": {
+    "name": "Nate Islip"
+  },
+  "plugins": [
+    {
+      "name": "frm-course-materials",
+      "source": "./",
+      "description": "FRM exam knowledge base with a concept graph and lookup skills."
+    }
+  ]
+}

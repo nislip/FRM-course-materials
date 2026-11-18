@@ -17,7 +17,7 @@
   variants: [parametric-var-sqrt-t]        # e.g. scaling a 1-day VaR to T days
   related: [expected-shortfall-normal]
   source: 'GARP FRM Part I, Book 4: Valuation and Risk Models, 2025 ed., ch. N, p. N'
-  implementation: None
+  implementation: null
   examples:
     - inputs:  { V: 10000000, sigma: 0.02, mu: 0, alpha: 0.99 }
       output:  465270

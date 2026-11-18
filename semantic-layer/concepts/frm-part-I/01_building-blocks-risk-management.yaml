@@ -1,0 +1,12 @@
+- id: value-at-risk
+  name: Value at Risk
+  aliases: [VaR]
+  definition: >                       # 1–2 sentences, your own words
+    The loss over a set horizon that will not be exceeded with a given
+    confidence level, under normal market conditions.
+  key_points:
+    - 'Needs three inputs: confidence level, horizon, and a loss distribution'
+    - Can be estimated parametrically, by historical simulation, or by Monte Carlo
+  formulas: [parametric-var]          # back-link to formulas/
+  learning_objectives:                # GARP AIMs, paraphrased
+    - Define VaR and explain its limitations as a risk measure
