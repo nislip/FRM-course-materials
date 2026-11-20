@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "frm-course-materials",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "FRM exam knowledge base: terms, concepts and formulas from the GARP FRM curriculum, linked into a concept graph, with skills to look them up and see how topics connect.",
   "author": {
     "name": "Nate Islip"

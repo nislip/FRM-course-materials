@@ -15,7 +15,7 @@
   acronyms: null
   definition: >
     Rates can move, and that can hurt financially.
-  related: [market-risk]
+  related: [market-risk, swap]
   notation: null
   examples:
     - If rates go up, the value of many existing bonds usually goes down, because new bonds pay higher interest
@@ -27,7 +27,7 @@
   aliases: null
   acronyms: null
   definition: null
-  related: [market-risk]
+  related: [market-risk, natural-hedge]
   notation: null
   examples: null
 
@@ -37,7 +37,7 @@
   acronyms: null
   definition: >
     The chance you lose money because the prices of raw materials (commodities) suddenly change.
-  related: [market-risk]
+  related: [market-risk, futures-contract]
   notation: null
   examples:
     - Hedging jet fuel with crude oil futures can fail if the historical relationship between the two prices breaks down
@@ -399,7 +399,7 @@
   acronyms: null
   definition: >
     An option greek: the sensitivity of option value to a change in the value of the underlying.
-  related: [theta]
+  related: [theta, option]
   notation: null
   examples: null
 
@@ -409,7 +409,7 @@
   acronyms: null
   definition: >
     An option greek: the change in option value as the option expiration date approaches.
-  related: [delta]
+  related: [delta, option]
   notation: null
   examples: null
 

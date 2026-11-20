@@ -1,6 +1,6 @@
 {
   "database_id": "3b358806-1260-825e-bd8e-01b434b9db6f",
-  "last_synced_at": "2026-11-18T03:44:10Z",
+  "last_synced_at": "2026-11-20T07:03:17Z",
   "pages": {
     "04258806-1260-8302-bb5d-81a8dd34cade": {
       "last_edited_time": "2026-11-17T21:28:25.507Z",
@@ -393,8 +393,8 @@
       "title": "Extra Course Work: Stress Testing Approaches, Methods, and Applications"
     },
     "41b58806-1260-80f3-a625-d181e98cd274": {
-      "last_edited_time": "2026-11-17T21:30:02.320Z",
-      "part": null,
+      "last_edited_time": "2026-11-19T16:03:10.734Z",
+      "part": "frm-part-I",
       "reading": null,
       "title": "Extra Course Work: Sample Questions from GARP Study Guide"
     },
@@ -405,7 +405,7 @@
       "title": "Foundations Chapter 5: Modern Portfolio Theory and Capital Asset Pricing Model"
     },
     "80e58806-1260-82a2-b1bc-01625b14fd51": {
-      "last_edited_time": "2026-11-17T21:31:00.735Z",
+      "last_edited_time": "2026-11-19T15:53:09.508Z",
       "part": "frm-part-I",
       "reading": "02_how-firms-manage-financial-risk",
       "title": "Foundations Chapter 2: How do Firms Manage Financial Risk?"
