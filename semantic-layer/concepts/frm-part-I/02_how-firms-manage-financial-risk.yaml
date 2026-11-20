@@ -26,6 +26,7 @@
     - Hedging can increase cash flows, e.g. letting a firm offer customers a stable price by hedging a key cost input
     - Equity investors concentrated in one firm generally want managers to hedge; diversified investors generally do not
     - Risk management instruments can themselves have negative consequences
+    - A firm hit by an unexpected market loss tends to cut investment in other areas and move more cautiously
   formulas: null
   learning_objectives:
     - Evaluate the advantages and disadvantages of hedging and the challenges of implementing a hedging strategy
@@ -39,6 +40,7 @@
   key_points:
     - Not the same as risk capacity, the maximum amount of risk a firm can absorb
     - Has two parts, a statement of willingness to take risk and the mechanisms linking it to day-to-day risk management
+    - The banking industry is at the forefront of formalizing risk appetite because of multiple crises
     - Firms are typically considered either conservative or entrepreneurial in their risk profile
     - The industry is making risk appetite more explicit to boards and adding quantitative risk metrics
     - HSBC's framework used 13 key categories, including earnings, capital, liquidity, credit, traded and operational risk
@@ -72,3 +74,84 @@
   formulas: null
   learning_objectives:
     - Compare strategies a firm can use to manage its risk exposures and when each is appropriate
+
+- id: modern-imperative-to-manage-risk
+  name: The Modern Imperative to Manage Risk
+  aliases: null
+  definition: >
+    Firms manage their core business risks out of a mix of need and opportunity: markets liberalized in the 1970s,
+    and new risk management instruments followed in the 1980s and 1990s.
+  key_points:
+    - 'Need: liberalization of commodity, interest rate, credit and foreign exchange markets in the 1970s increased price volatility'
+    - 'Opportunity: market growth in the 1980s and 1990s spawned risk management instruments, helped by the Black-Scholes-Merton model and securitization'
+    - Credit and weather derivatives were introduced
+    - The principal derivatives markets grew rapidly across two decades
+  formulas: null
+  learning_objectives: null
+
+- id: rightsizing-risk-management
+  name: Rightsizing Risk Management
+  aliases: [Right-Sizing Risk Management]
+  definition: >
+    Matching the sophistication and cost of the risk management function to the firm's strategy. A one-off hedge or an
+    annual insurance purchase is simple; a dynamic hedging strategy with continual readjustment is a big investment.
+  key_points:
+    - Start from the risk appetite and hedging philosophy, and set basic goals such as reducing volatility, taxes or limit-breach risk
+    - Decide the accounting treatment (cost center, economic center or profit center) and the time horizons
+    - Right-size resources and budget, set reporting lines, accountability, oversight and independence
+    - Establish documented policies and procedures, and evaluate performance, including incentive compensation
+    - Dynamic strategies need more complex models and metrics
+    - Each year, run a board-level gap analysis to check that sophistication matches the conservatism of the strategy
+    - Decide whether risk management costs should be distributed proportionally to the areas it serves
+  formulas: null
+  learning_objectives:
+    - Assess the impact of risk management tools and instruments, including risk limits and derivatives
+
+- id: risk-transfer-toolbox
+  name: Risk Transfer Toolbox
+  aliases: null
+  definition: >
+    The instruments a firm can use to transfer financial risk to the risk management markets, mainly swaps, futures,
+    forwards and options, chosen to fit the situation and the risks each instrument brings.
+  key_points:
+    - A key difference is trading mechanics, exchange-traded versus private bilateral OTC agreements
+    - OTC and exchange-based instruments differ in liquidity and counterparty credit risk
+    - Managers combine OTC and exchange-based instruments into a huge variety of strategies
+    - Risk management began with agricultural futures listed on the CBOT in the 1860s
+    - Busch managed commodity price risk with aluminum, corn and rice swaps, sugar and wheat futures, and energy and plastic derivatives
+    - Airlines cannot simply raise ticket prices when fuel costs rise, so they hedge jet fuel with swaps, call options and collars
+    - Unhedged American Airlines benefited from the 2014 fall in jet fuel prices while hedged competitors did not
+  formulas: null
+  learning_objectives:
+    - Assess the impact of risk management tools and instruments, including risk limits and derivatives
+
+- id: interest-rate-and-fx-risk-management
+  name: Interest Rate and Foreign Exchange Risk Management
+  aliases: null
+  definition: >
+    Managing interest rate and foreign currency exposures, one of the more important areas of price risk management
+    for many firms.
+  key_points:
+    - Business activities often create natural hedges, such as inflows and outflows of the same foreign currency
+    - A firm balances interest rate risk through its financial risk appetite, which can set the level of debt the board accepts
+    - It also sets the proportion of fixed to variable interest rate debt
+    - Interest rate changes are linked to the broader economy and consumer demand and can affect a firm's ability to meet its debt obligations
+  formulas: null
+  learning_objectives:
+    - Apply appropriate methods to hedge operational and financial risks, including foreign currency and interest rate risk
+
+- id: corporate-hedging-pitfalls
+  name: What Can Go Wrong with Corporate Hedging
+  aliases: null
+  definition: >
+    Almost everything can go wrong with corporate hedging, from misunderstanding the exposure to poor communication
+    about how the hedge behaves.
+  key_points:
+    - Misunderstanding or incorrectly mapping the risk exposure
+    - Failing to notice changes in market structure
+    - Suffering from a rogue trader on the team
+    - Poor communication can cause a major breakdown
+    - MGRM in 1993 promised 150 million barrels of gasoline and heating oil at fixed prices over ten years; falling prices caused massive margin calls and a liquidity drain
+  formulas: null
+  learning_objectives:
+    - Evaluate the advantages and disadvantages of hedging and the challenges of implementing a hedging strategy

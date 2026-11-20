@@ -7,3 +7,106 @@
   related: [risk-appetite]
   notation: null
   examples: null
+
+- id: derivatives-market
+  name: Derivatives Market
+  aliases: null
+  acronyms: null
+  definition: >
+    A global financial market where standardized and customized derivative contracts such as futures, options,
+    swaps and forwards are traded. It grew rapidly across two decades.
+  related: [swap, futures-contract, forward-contract, option]
+  notation: null
+  examples: null
+
+- id: swap
+  name: Swap
+  aliases: null
+  acronyms: null
+  definition: >
+    A derivative contract through which two parties exchange the cash flows or liabilities from two different
+    financial instruments.
+  related: [derivatives-market, interest-rate-risk]
+  notation: null
+  examples:
+    - The most common are interest rate swaps, e.g. swapping a fixed interest rate for a variable one to hedge against rising rates
+    - Airlines use swaps to hedge jet fuel prices
+
+- id: futures-contract
+  name: Futures Contract
+  aliases: [Futures]
+  acronyms: null
+  definition: >
+    A derivative contract that obligates the parties to buy or sell an asset at a predetermined future date and price.
+    Futures trade on exchanges.
+  related: [derivatives-market, forward-contract, commodity-price-risk]
+  notation: null
+  examples:
+    - Stock market futures obligate the buyer to purchase and the seller to sell a stock or set of stocks at a set future date and price
+    - Busch could fix the price it pays per bushel of wheat using wheat futures traded on the CBOT
+
+- id: forward-contract
+  name: Forward Contract
+  aliases: [Forward]
+  acronyms: null
+  definition: >
+    A customized contract between two parties to buy or sell an asset at a specified price on a future date.
+    Unlike futures, forwards trade over the counter rather than on a centralized exchange, which brings a higher risk of default.
+  related: [derivatives-market, futures-contract, over-the-counter]
+  notation: null
+  examples: null
+
+- id: option
+  name: Option
+  aliases: null
+  acronyms: null
+  definition: >
+    A financial instrument whose value is based on the value of underlying securities such as stocks.
+  related: [derivatives-market, delta, theta, collar]
+  notation: null
+  examples: null
+
+- id: over-the-counter
+  name: Over-the-Counter
+  aliases: null
+  acronyms: [OTC]
+  definition: >
+    A private bilateral agreement between two parties rather than an instrument offered through one of the large exchanges.
+    OTC and exchange-based derivatives have different strengths and weaknesses, particularly for liquidity and counterparty credit risk.
+  related: [forward-contract]
+  notation: null
+  examples: null
+
+- id: collar
+  name: Collar
+  aliases: null
+  acronyms: null
+  definition: >
+    A hedge that combines call and put options.
+  related: [option]
+  notation: null
+  examples:
+    - Airlines use collars, alongside swaps and call options, to hedge jet fuel prices
+
+- id: notional-value
+  name: Notional Value
+  aliases: null
+  acronyms: null
+  definition: >
+    The total value of the underlying asset in a derivative contract or leveraged position. Notional values are higher
+    than market values because leverage amplifies how much of the market a position controls.
+  related: null
+  notation: null
+  examples:
+    - Notional limits, one of the risk limit types a firm can set, cap positions by notional value
+
+- id: natural-hedge
+  name: Natural Hedge
+  aliases: null
+  acronyms: null
+  definition: >
+    An offset that arises from a firm's normal business activities rather than from a hedging instrument,
+    such as matching inflows and outflows of the same foreign currency.
+  related: [currency-risk]
+  notation: null
+  examples: null

@@ -133,6 +133,33 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "collar": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A hedge that combines call and put options.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Airlines use collars, alongside swaps and call options, to hedge jet fuel prices"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "collar",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "option",
+     "type": "related"
+    }
+   ],
+   "name": "Collar",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "collateralized": {
    "aliases": [],
    "complete": true,
@@ -171,6 +198,10 @@
    "latex": null,
    "links": [
     {
+     "id": "futures-contract",
+     "type": "related"
+    },
+    {
      "id": "market-risk",
      "type": "related"
     }
@@ -178,6 +209,38 @@
    "name": "Commodity Price Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "corporate-hedging-pitfalls": {
+   "aliases": [],
+   "complete": true,
+   "definition": "Almost everything can go wrong with corporate hedging, from misunderstanding the exposure to poor communication about how the hedge behaves.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Misunderstanding or incorrectly mapping the risk exposure",
+      "Failing to notice changes in market structure",
+      "Suffering from a rogue trader on the team",
+      "Poor communication can cause a major breakdown",
+      "MGRM in 1993 promised 150 million barrels of gasoline and heating oil at fixed prices over ten years; falling prices caused massive margin calls and a liquidity drain"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Evaluate the advantages and disadvantages of hedging and the challenges of implementing a hedging strategy"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "corporate-hedging-pitfalls",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "What Can Go Wrong with Corporate Hedging",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
   "credit-risk": {
@@ -246,6 +309,10 @@
     {
      "id": "market-risk",
      "type": "related"
+    },
+    {
+     "id": "natural-hedge",
+     "type": "related"
     }
    ],
    "name": "Currency Risk",
@@ -290,6 +357,10 @@
    "latex": null,
    "links": [
     {
+     "id": "option",
+     "type": "related"
+    },
+    {
      "id": "theta",
      "type": "related"
     }
@@ -297,6 +368,38 @@
    "name": "Delta",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "derivatives-market": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A global financial market where standardized and customized derivative contracts such as futures, options, swaps and forwards are traded. It grew rapidly across two decades.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "derivatives-market",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "forward-contract",
+     "type": "related"
+    },
+    {
+     "id": "futures-contract",
+     "type": "related"
+    },
+    {
+     "id": "option",
+     "type": "related"
+    },
+    {
+     "id": "swap",
+     "type": "related"
+    }
+   ],
+   "name": "Derivatives Market",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
   "downgrade-risk": {
@@ -535,6 +638,36 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "forward-contract": {
+   "aliases": [
+    "Forward"
+   ],
+   "complete": true,
+   "definition": "A customized contract between two parties to buy or sell an asset at a specified price on a future date. Unlike futures, forwards trade over the counter rather than on a centralized exchange, which brings a higher risk of default.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "forward-contract",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "derivatives-market",
+     "type": "related"
+    },
+    {
+     "id": "futures-contract",
+     "type": "related"
+    },
+    {
+     "id": "over-the-counter",
+     "type": "related"
+    }
+   ],
+   "name": "Forward Contract",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "funding-liquidity-risk": {
    "aliases": [],
    "complete": true,
@@ -565,6 +698,44 @@
    "name": "Funding Liquidity Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "futures-contract": {
+   "aliases": [
+    "Futures"
+   ],
+   "complete": true,
+   "definition": "A derivative contract that obligates the parties to buy or sell an asset at a predetermined future date and price. Futures trade on exchanges.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Stock market futures obligate the buyer to purchase and the seller to sell a stock or set of stocks at a set future date and price",
+      "Busch could fix the price it pays per bushel of wheat using wheat futures traded on the CBOT"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "futures-contract",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "commodity-price-risk",
+     "type": "related"
+    },
+    {
+     "id": "derivatives-market",
+     "type": "related"
+    },
+    {
+     "id": "forward-contract",
+     "type": "related"
+    }
+   ],
+   "name": "Futures Contract",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
   "gap-analysis": {
@@ -623,7 +794,8 @@
       "Theoretical arguments against hedging assume perfect, frictionless markets, but there are many imperfections",
       "Hedging can increase cash flows, e.g. letting a firm offer customers a stable price by hedging a key cost input",
       "Equity investors concentrated in one firm generally want managers to hedge; diversified investors generally do not",
-      "Risk management instruments can themselves have negative consequences"
+      "Risk management instruments can themselves have negative consequences",
+      "A firm hit by an unexpected market loss tends to cut investment in other areas and move more cautiously"
      ]
     },
     {
@@ -665,6 +837,37 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "interest-rate-and-fx-risk-management": {
+   "aliases": [],
+   "complete": true,
+   "definition": "Managing interest rate and foreign currency exposures, one of the more important areas of price risk management for many firms.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Business activities often create natural hedges, such as inflows and outflows of the same foreign currency",
+      "A firm balances interest rate risk through its financial risk appetite, which can set the level of debt the board accepts",
+      "It also sets the proportion of fixed to variable interest rate debt",
+      "Interest rate changes are linked to the broader economy and consumer demand and can affect a firm's ability to meet its debt obligations"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Apply appropriate methods to hedge operational and financial risks, including foreign currency and interest rate risk"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "interest-rate-and-fx-risk-management",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Interest Rate and Foreign Exchange Risk Management",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "interest-rate-risk": {
    "aliases": [],
    "complete": true,
@@ -686,6 +889,10 @@
    "links": [
     {
      "id": "market-risk",
+     "type": "related"
+    },
+    {
+     "id": "swap",
      "type": "related"
     }
    ],
@@ -859,6 +1066,73 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "modern-imperative-to-manage-risk": {
+   "aliases": [],
+   "complete": true,
+   "definition": "Firms manage their core business risks out of a mix of need and opportunity: markets liberalized in the 1970s, and new risk management instruments followed in the 1980s and 1990s.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Need: liberalization of commodity, interest rate, credit and foreign exchange markets in the 1970s increased price volatility",
+      "Opportunity: market growth in the 1980s and 1990s spawned risk management instruments, helped by the Black-Scholes-Merton model and securitization",
+      "Credit and weather derivatives were introduced",
+      "The principal derivatives markets grew rapidly across two decades"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "modern-imperative-to-manage-risk",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "The Modern Imperative to Manage Risk",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "natural-hedge": {
+   "aliases": [],
+   "complete": true,
+   "definition": "An offset that arises from a firm's normal business activities rather than from a hedging instrument, such as matching inflows and outflows of the same foreign currency.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "natural-hedge",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "currency-risk",
+     "type": "related"
+    }
+   ],
+   "name": "Natural Hedge",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "notional-value": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The total value of the underlying asset in a derivative contract or leveraged position. Notional values are higher than market values because leverage amplifies how much of the market a position controls.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "Notional limits, one of the risk limit types a firm can set, cap positions by notional value"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "notional-value",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Notional Value",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "operational-risk": {
    "aliases": [],
    "complete": true,
@@ -887,6 +1161,60 @@
    "name": "Operational Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "option": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A financial instrument whose value is based on the value of underlying securities such as stocks.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "option",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "collar",
+     "type": "related"
+    },
+    {
+     "id": "delta",
+     "type": "related"
+    },
+    {
+     "id": "derivatives-market",
+     "type": "related"
+    },
+    {
+     "id": "theta",
+     "type": "related"
+    }
+   ],
+   "name": "Option",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "over-the-counter": {
+   "aliases": [
+    "OTC"
+   ],
+   "complete": true,
+   "definition": "A private bilateral agreement between two parties rather than an instrument offered through one of the large exchanges. OTC and exchange-based derivatives have different strengths and weaknesses, particularly for liquidity and counterparty credit risk.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "over-the-counter",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "forward-contract",
+     "type": "related"
+    }
+   ],
+   "name": "Over-the-Counter",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
   "parametric-var": {
@@ -1120,6 +1448,42 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "rightsizing-risk-management": {
+   "aliases": [
+    "Right-Sizing Risk Management"
+   ],
+   "complete": true,
+   "definition": "Matching the sophistication and cost of the risk management function to the firm's strategy. A one-off hedge or an annual insurance purchase is simple; a dynamic hedging strategy with continual readjustment is a big investment.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Start from the risk appetite and hedging philosophy, and set basic goals such as reducing volatility, taxes or limit-breach risk",
+      "Decide the accounting treatment (cost center, economic center or profit center) and the time horizons",
+      "Right-size resources and budget, set reporting lines, accountability, oversight and independence",
+      "Establish documented policies and procedures, and evaluate performance, including incentive compensation",
+      "Dynamic strategies need more complex models and metrics",
+      "Each year, run a board-level gap analysis to check that sophistication matches the conservatism of the strategy",
+      "Decide whether risk management costs should be distributed proportionally to the areas it serves"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Assess the impact of risk management tools and instruments, including risk limits and derivatives"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "rightsizing-risk-management",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Rightsizing Risk Management",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "risk-aggregation": {
    "aliases": [],
    "complete": true,
@@ -1160,6 +1524,7 @@
      "value": [
       "Not the same as risk capacity, the maximum amount of risk a firm can absorb",
       "Has two parts, a statement of willingness to take risk and the mechanisms linking it to day-to-day risk management",
+      "The banking industry is at the forefront of formalizing risk appetite because of multiple crises",
       "Firms are typically considered either conservative or entrepreneurial in their risk profile",
       "The industry is making risk appetite more explicit to boards and adding quantitative risk metrics",
       "HSBC's framework used 13 key categories, including earnings, capital, liquidity, credit, traded and operational risk"
@@ -1392,6 +1757,40 @@
    "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
+  "risk-transfer-toolbox": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The instruments a firm can use to transfer financial risk to the risk management markets, mainly swaps, futures, forwards and options, chosen to fit the situation and the risks each instrument brings.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "A key difference is trading mechanics, exchange-traded versus private bilateral OTC agreements",
+      "OTC and exchange-based instruments differ in liquidity and counterparty credit risk",
+      "Managers combine OTC and exchange-based instruments into a huge variety of strategies",
+      "Risk management began with agricultural futures listed on the CBOT in the 1860s",
+      "Busch managed commodity price risk with aluminum, corn and rice swaps, sugar and wheat futures, and energy and plastic derivatives",
+      "Airlines cannot simply raise ticket prices when fuel costs rise, so they hedge jet fuel with swaps, call options and collars",
+      "Unhedged American Airlines benefited from the 2014 fall in jet fuel prices while hedged competitors did not"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Assess the impact of risk management tools and instruments, including risk limits and derivatives"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "risk-transfer-toolbox",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Risk Transfer Toolbox",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "risk-versus-uncertainty": {
    "aliases": [
     "Knowns and Unknowns"
@@ -1492,6 +1891,38 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "swap": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A derivative contract through which two parties exchange the cash flows or liabilities from two different financial instruments.",
+   "details": [
+    {
+     "field": "examples",
+     "value": [
+      "The most common are interest rate swaps, e.g. swapping a fixed interest rate for a variable one to hedge against rising rates",
+      "Airlines use swaps to hedge jet fuel prices"
+     ]
+    }
+   ],
+   "file": "semantic-layer/terminology/frm-part-I/02_how-firms-manage-financial-risk.yaml",
+   "id": "swap",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "derivatives-market",
+     "type": "related"
+    },
+    {
+     "id": "interest-rate-risk",
+     "type": "related"
+    }
+   ],
+   "name": "Swap",
+   "part": "frm-part-I",
+   "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
   "tail-risk": {
    "aliases": [
     "Outliers"
@@ -1537,6 +1968,10 @@
    "links": [
     {
      "id": "delta",
+     "type": "related"
+    },
+    {
+     "id": "option",
      "type": "related"
     }
    ],
@@ -1692,16 +2127,16 @@
   }
  },
  "summary": {
-  "complete": 54,
+  "complete": 68,
   "incomplete": [
    "bank-operational-risk",
    "currency-risk"
   ],
-  "links": 44,
+  "links": 56,
   "missing": [
    "expected-shortfall-normal",
    "parametric-var-sqrt-t"
   ],
-  "nodes": 58
+  "nodes": 72
  }
 }
