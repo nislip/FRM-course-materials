@@ -73,7 +73,7 @@
   definition: >
     A private bilateral agreement between two parties rather than an instrument offered through one of the large exchanges.
     OTC and exchange-based derivatives have different strengths and weaknesses, particularly for liquidity and counterparty credit risk.
-  related: [forward-contract]
+  related: [forward-contract, systemically-important-markets-and-infrastructures]
   notation: null
   examples: null
 

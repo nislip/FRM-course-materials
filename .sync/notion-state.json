@@ -1,6 +1,6 @@
 {
   "database_id": "3b358806-1260-825e-bd8e-01b434b9db6f",
-  "last_synced_at": "2026-11-20T07:03:17Z",
+  "last_synced_at": "2026-11-21T07:03:01Z",
   "pages": {
     "04258806-1260-8302-bb5d-81a8dd34cade": {
       "last_edited_time": "2026-11-17T21:28:25.507Z",
@@ -387,16 +387,28 @@
       "title": "Valuation and Risk Models Chapter 10: Interest Rates"
     },
     "41458806-1260-80b4-af1f-d1ec90e49382": {
-      "last_edited_time": "2026-11-17T21:30:05.706Z",
+      "last_edited_time": "2026-11-20T15:15:03.390Z",
       "part": null,
       "reading": null,
-      "title": "Extra Course Work: Stress Testing Approaches, Methods, and Applications"
+      "title": "Extra Resources: Stress Testing Approaches, Methods, and Applications"
     },
     "41b58806-1260-80f3-a625-d181e98cd274": {
-      "last_edited_time": "2026-11-19T16:03:10.734Z",
+      "last_edited_time": "2026-11-20T15:15:11.268Z",
       "part": "frm-part-I",
       "reading": null,
-      "title": "Extra Course Work: Sample Questions from GARP Study Guide"
+      "title": "Extra Sources: Sample Questions from GARP Study Guide"
+    },
+    "41e58806-1260-80f7-b5ed-c80b79c20e4a": {
+      "last_edited_time": "2026-11-20T16:22:00.588Z",
+      "part": "frm-part-I",
+      "reading": null,
+      "title": "Extra Resources: Sample Questions from Analyst Prep"
+    },
+    "41e58806-1260-80f8-9e4b-f69e941de12d": {
+      "last_edited_time": "2026-11-20T15:17:13.974Z",
+      "part": null,
+      "reading": null,
+      "title": "Extra Resources: Publications, Regulation Frameworks"
     },
     "74158806-1260-8365-88c7-815160814917": {
       "last_edited_time": "2026-11-17T21:28:36.186Z",
@@ -411,9 +423,9 @@
       "title": "Foundations Chapter 2: How do Firms Manage Financial Risk?"
     },
     "bd358806-1260-8289-bbf9-81c8344346c2": {
-      "last_edited_time": "2026-11-17T21:28:20.900Z",
+      "last_edited_time": "2026-11-20T15:43:35.194Z",
       "part": "frm-part-I",
-      "reading": null,
+      "reading": "03_governance-risk-management",
       "title": "Foundations Chapter 3: The Governance of Risk Management"
     },
     "da058806-1260-8315-b7fe-810f87e006a9": {
