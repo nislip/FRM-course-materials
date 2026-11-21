@@ -291,7 +291,7 @@
   acronyms: [BCBS]
   definition: >
     A group of big-country banking regulators who get together to set shared "best practice" rules for banks.
-  related: [bank-operational-risk]
+  related: [bank-operational-risk, basel-i, basel-ii, basel-iii]
   notation: null
   examples: null
 

@@ -1,0 +1,87 @@
+- id: risk-governance
+  name: Risk Governance
+  aliases: null
+  definition: >
+    How firms undertake and oversee risk management. It has shifted to a well-defined set of best practices and
+    become a central tenet of modern banking regulation.
+  key_points:
+    - Driven by failures at Enron (2001), WorldCom and Global Crossing (2002) and Parmalat (2003), whose actions went unchecked by auditors and boards
+    - Financially engineered products such as derivatives were sometimes used to disguise how bad the failing firms' positions were
+    - The US responded with legislation (SOX); England instead used corporate codes and "comply or explain"
+    - The 2007-2009 global financial crisis was the epitome of risk management failure
+  formulas: null
+  learning_objectives:
+    - Describe best practices for the governance of a firm's risk management processes
+    - Explain the risk management role and responsibilities of a firm's board of directors
+    - Evaluate the relationship between a firm's risk appetite and its business strategy, including the role of incentives
+    - Illustrate the interdependence of functional units within a firm as it relates to risk management
+    - Assess the role and responsibilities of a firm's audit committee
+
+- id: sox-key-provisions
+  name: Sarbanes-Oxley Key Provisions
+  aliases: [SOX Requirements]
+  definition: >
+    The main obligations SOX places on publicly traded companies and their CEOs and CFOs around accurate reporting
+    and internal controls.
+  key_points:
+    - CEOs and CFOs ensure reports filed with the SEC are accurate
+    - CEOs and CFOs affirm that disclosures give a complete and accurate picture of the company's financial condition and operations
+    - CEOs and CFOs are responsible for the design and maintenance of internal controls
+    - The effectiveness of reporting procedures and controls must be reviewed annually
+    - The names of board audit committee members must be disclosed
+  formulas: null
+  learning_objectives: null
+
+- id: global-financial-crisis-causes
+  name: Causes of the 2007-2009 Financial Crisis
+  aliases: [GFC]
+  definition: >
+    The crisis followed a downturn in a previously hot housing market fuelled by easy mortgages and accelerated by
+    a booming market for mortgage-backed securities traded by financial institutions.
+  key_points:
+    - Credit markets were defined by low underwriting standards, no oversight and reliance on complex credit instruments
+    - Basel II was being implemented right before the crisis
+  formulas: null
+  learning_objectives: null
+
+- id: basel-accords-evolution
+  name: Evolution of the Basel Accords
+  aliases: null
+  definition: >
+    How the Basel Committee's capital framework moved from Basel I's simple risk-weighted 8% minimum to Basel II's
+    refined weightings and then to Basel III's post-crisis focus on capital quality and liquidity.
+  key_points:
+    - 'Basel I (1988): risk-weighted capital requirements with minimum capital at 8% of risk-weighted assets'
+    - 'Basel II (set 2006): kept the 8%, refined risk weighting, added trading activity and became more attuned to financial innovation'
+    - 'Basel III: higher capital quality (core Tier 1 limited to common equity and retained earnings), new LCR and NSFR liquidity ratios, and a macroprudential overlay'
+    - The framework was revised again in 2016 with the Fundamental Review of the Trading Book (FRTB)
+  formulas: null
+  learning_objectives: null
+
+- id: basel-iii-macroprudential-overlay
+  name: Basel III Macroprudential Overlay
+  aliases: null
+  definition: >
+    The set of five system-wide elements added in Basel III in response to the financial crisis.
+  key_points:
+    - A leverage ratio of 3%
+    - A countercyclical capital buffer
+    - Total loss-absorbing capital (TLAC) standards for global systemically important banks (G-SIBs)
+    - Systemically important markets and infrastructures (SIMIs), e.g. moving OTC derivatives to central clearing and trade reporting
+    - Capturing systemic risk and tail events in risk modeling and stress testing
+  formulas: null
+  learning_objectives: null
+
+- id: post-crisis-regulatory-response
+  name: Post-Crisis Regulatory Response
+  aliases: null
+  definition: >
+    The regulatory and corporate governance changes that followed the 2007-2009 financial crisis, led by the Basel
+    Committee's Basel III framework alongside national and regional regimes.
+  key_points:
+    - Basel III and its macroprudential overlay
+    - Basel Committee corporate governance principles for banks, revised in 2015, focus on the board's active role in oversight and risk governance
+    - Other responses included the US Dodd-Frank Act and the European Supervisory Review and Evaluation Process (SREP)
+  formulas: null
+  learning_objectives:
+    - Explain changes in regulations and corporate risk governance that occurred as a result of the 2007-2009 financial crisis

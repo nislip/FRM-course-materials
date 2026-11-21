@@ -1,0 +1,167 @@
+- id: sarbanes-oxley-act
+  name: Sarbanes-Oxley Act
+  aliases: null
+  acronyms: [SOX]
+  definition: >
+    US federal legislation passed after the early-2000s corporate failures (Enron, WorldCom, Global Crossing) that
+    enforces corporate governance rules through stricter securities regulation.
+  related: [comply-or-explain, audit-committee]
+  notation: null
+  examples: null
+
+- id: comply-or-explain
+  name: Comply or Explain
+  aliases: null
+  acronyms: null
+  definition: >
+    The approach England took instead of SOX-style legislation, relying on corporate governance codes and a regime
+    of "comply or explain".
+  related: [sarbanes-oxley-act]
+  notation: null
+  examples: null
+
+- id: audit-committee
+  name: Audit Committee
+  aliases: [Board Audit Committee]
+  acronyms: null
+  definition: >
+    A committee of the board of directors. Under SOX the names of its members must be disclosed, and they are expected
+    to understand accounting principles and financial statements and to have experience with internal audits.
+  related: [sarbanes-oxley-act]
+  notation: null
+  examples: null
+
+- id: basel-i
+  name: Basel I
+  aliases: [1988 Basel Accord]
+  acronyms: null
+  definition: >
+    The 1988 Basel Accord, which set capital adequacy standards after the Latin American debt crisis using a
+    risk-weighted approach, with minimum capital at 8% of a firm's risk-weighted assets.
+  related: [basel-committee, basel-ii]
+  notation: null
+  examples: null
+
+- id: basel-ii
+  name: Basel II
+  aliases: null
+  acronyms: null
+  definition: >
+    The BCBS revision of the capital adequacy framework (begun in 1999, set in 2006) that superseded Basel I. It kept
+    the 8% minimum but refined the risk weighting and added trading activity alongside lending activity.
+  related: [basel-committee, basel-i, basel-iii]
+  notation: null
+  examples: null
+
+- id: basel-iii
+  name: Basel III
+  aliases: null
+  acronyms: null
+  definition: >
+    The post-crisis Basel framework, with a big emphasis on capital adequacy. It raised capital quality by limiting
+    core Tier 1 capital to common equity and retained earnings, and imposed new short- and long-term liquidity ratios.
+  related: [basel-committee, basel-ii, tier-1-capital, liquidity-coverage-ratio, net-stable-funding-ratio, fundamental-review-of-the-trading-book]
+  notation: null
+  examples: null
+
+- id: tier-1-capital
+  name: Tier 1 Capital
+  aliases: [Core Capital, Primary Capital]
+  acronyms: null
+  definition: >
+    The sum of common stock, retained earnings and certain reserves.
+  related: [basel-iii]
+  notation: null
+  examples: null
+
+- id: liquidity-coverage-ratio
+  name: Liquidity Coverage Ratio
+  aliases: null
+  acronyms: [LCR]
+  definition: >
+    A 30-day, short-term liquidity ratio imposed by Basel III.
+  related: [basel-iii, net-stable-funding-ratio]
+  notation: null
+  examples: null
+
+- id: net-stable-funding-ratio
+  name: Net Stable Funding Ratio
+  aliases: null
+  acronyms: [NSFR]
+  definition: >
+    A one-year, long-term liquidity ratio imposed by Basel III.
+  related: [basel-iii, liquidity-coverage-ratio]
+  notation: null
+  examples: null
+
+- id: leverage-ratio
+  name: Leverage Ratio
+  aliases: null
+  acronyms: null
+  definition: >
+    A minimum leverage ratio of 3%, one of the five elements of the Basel III macroprudential overlay.
+  related: null
+  notation: null
+  examples: null
+
+- id: countercyclical-capital-buffer
+  name: Countercyclical Capital Buffer
+  aliases: null
+  acronyms: null
+  definition: >
+    A capital buffer that is one of the five elements of the Basel III macroprudential overlay.
+  related: null
+  notation: null
+  examples: null
+
+- id: total-loss-absorbing-capital
+  name: Total Loss-Absorbing Capital
+  aliases: null
+  acronyms: [TLAC]
+  definition: >
+    Standards that apply to global systemically important banks (G-SIBs); one of the five elements of the Basel III
+    macroprudential overlay.
+  related: null
+  notation: null
+  examples: null
+
+- id: systemically-important-markets-and-infrastructures
+  name: Systemically Important Markets and Infrastructures
+  aliases: null
+  acronyms: [SIMIs]
+  definition: >
+    An element of the Basel III macroprudential overlay. For OTC derivatives, the Basel Committee is pushing the market
+    to move as many trades as possible through central clearing and trade reporting.
+  related: [over-the-counter]
+  notation: null
+  examples: null
+
+- id: fundamental-review-of-the-trading-book
+  name: Fundamental Review of the Trading Book
+  aliases: null
+  acronyms: [FRTB]
+  definition: >
+    The 2016 revision of the Basel framework.
+  related: [basel-iii]
+  notation: null
+  examples: null
+
+- id: dodd-frank-act
+  name: Dodd-Frank Act
+  aliases: null
+  acronyms: null
+  definition: >
+    A US regulatory response to the 2007-2009 financial crisis.
+  related: null
+  notation: null
+  examples: null
+
+- id: supervisory-review-and-evaluation-process
+  name: Supervisory Review and Evaluation Process
+  aliases: null
+  acronyms: [SREP]
+  definition: >
+    A European regulatory response to the 2007-2009 financial crisis.
+  related: null
+  notation: null
+  examples: null
