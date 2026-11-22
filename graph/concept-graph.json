@@ -31,6 +31,28 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "audit-committee": {
+   "aliases": [
+    "Board Audit Committee"
+   ],
+   "complete": true,
+   "definition": "A committee of the board of directors. Under SOX the names of its members must be disclosed, and they are expected to understand accounting principles and financial statements and to have experience with internal audits.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "audit-committee",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "sarbanes-oxley-act",
+     "type": "related"
+    }
+   ],
+   "name": "Audit Committee",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "bank-operational-risk": {
    "aliases": [],
    "complete": false,
@@ -59,6 +81,31 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "basel-accords-evolution": {
+   "aliases": [],
+   "complete": true,
+   "definition": "How the Basel Committee's capital framework moved from Basel I's simple risk-weighted 8% minimum to Basel II's refined weightings and then to Basel III's post-crisis focus on capital quality and liquidity.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Basel I (1988): risk-weighted capital requirements with minimum capital at 8% of risk-weighted assets",
+      "Basel II (set 2006): kept the 8%, refined risk weighting, added trading activity and became more attuned to financial innovation",
+      "Basel III: higher capital quality (core Tier 1 limited to common equity and retained earnings), new LCR and NSFR liquidity ratios, and a macroprudential overlay",
+      "The framework was revised again in 2016 with the Fundamental Review of the Trading Book (FRTB)"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "basel-accords-evolution",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Evolution of the Basel Accords",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "basel-committee": {
    "aliases": [
     "Basel Committee",
@@ -75,11 +122,143 @@
     {
      "id": "bank-operational-risk",
      "type": "related"
+    },
+    {
+     "id": "basel-i",
+     "type": "related"
+    },
+    {
+     "id": "basel-ii",
+     "type": "related"
+    },
+    {
+     "id": "basel-iii",
+     "type": "related"
     }
    ],
    "name": "Basel Committee on Banking Supervision",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "basel-i": {
+   "aliases": [
+    "1988 Basel Accord"
+   ],
+   "complete": true,
+   "definition": "The 1988 Basel Accord, which set capital adequacy standards after the Latin American debt crisis using a risk-weighted approach, with minimum capital at 8% of a firm's risk-weighted assets.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "basel-i",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-committee",
+     "type": "related"
+    },
+    {
+     "id": "basel-ii",
+     "type": "related"
+    }
+   ],
+   "name": "Basel I",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "basel-ii": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The BCBS revision of the capital adequacy framework (begun in 1999, set in 2006) that superseded Basel I. It kept the 8% minimum but refined the risk weighting and added trading activity alongside lending activity.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "basel-ii",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-committee",
+     "type": "related"
+    },
+    {
+     "id": "basel-i",
+     "type": "related"
+    },
+    {
+     "id": "basel-iii",
+     "type": "related"
+    }
+   ],
+   "name": "Basel II",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "basel-iii": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The post-crisis Basel framework, with a big emphasis on capital adequacy. It raised capital quality by limiting core Tier 1 capital to common equity and retained earnings, and imposed new short- and long-term liquidity ratios.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "basel-iii",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-committee",
+     "type": "related"
+    },
+    {
+     "id": "basel-ii",
+     "type": "related"
+    },
+    {
+     "id": "fundamental-review-of-the-trading-book",
+     "type": "related"
+    },
+    {
+     "id": "liquidity-coverage-ratio",
+     "type": "related"
+    },
+    {
+     "id": "net-stable-funding-ratio",
+     "type": "related"
+    },
+    {
+     "id": "tier-1-capital",
+     "type": "related"
+    }
+   ],
+   "name": "Basel III",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "basel-iii-macroprudential-overlay": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The set of five system-wide elements added in Basel III in response to the financial crisis.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "A leverage ratio of 3%",
+      "A countercyclical capital buffer",
+      "Total loss-absorbing capital (TLAC) standards for global systemically important banks (G-SIBs)",
+      "Systemically important markets and infrastructures (SIMIs), e.g. moving OTC derivatives to central clearing and trade reporting",
+      "Capturing systemic risk and tail events in risk modeling and stress testing"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "basel-iii-macroprudential-overlay",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Basel III Macroprudential Overlay",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "brainstorming-and-triaging-risks": {
@@ -211,6 +390,26 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "comply-or-explain": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The approach England took instead of SOX-style legislation, relying on corporate governance codes and a regime of \"comply or explain\".",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "comply-or-explain",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "sarbanes-oxley-act",
+     "type": "related"
+    }
+   ],
+   "name": "Comply or Explain",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "corporate-hedging-pitfalls": {
    "aliases": [],
    "complete": true,
@@ -241,6 +440,21 @@
    "name": "What Can Go Wrong with Corporate Hedging",
    "part": "frm-part-I",
    "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "countercyclical-capital-buffer": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A capital buffer that is one of the five elements of the Basel III macroprudential overlay.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "countercyclical-capital-buffer",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Countercyclical Capital Buffer",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "credit-risk": {
@@ -400,6 +614,21 @@
    "name": "Derivatives Market",
    "part": "frm-part-I",
    "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "dodd-frank-act": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A US regulatory response to the 2007-2009 financial crisis.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "dodd-frank-act",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Dodd-Frank Act",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "downgrade-risk": {
@@ -668,6 +897,28 @@
    "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
+  "fundamental-review-of-the-trading-book": {
+   "aliases": [
+    "FRTB"
+   ],
+   "complete": true,
+   "definition": "The 2016 revision of the Basel framework.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "fundamental-review-of-the-trading-book",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-iii",
+     "type": "related"
+    }
+   ],
+   "name": "Fundamental Review of the Trading Book",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "funding-liquidity-risk": {
    "aliases": [],
    "complete": true,
@@ -780,6 +1031,31 @@
    "name": "General Market Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "global-financial-crisis-causes": {
+   "aliases": [
+    "GFC"
+   ],
+   "complete": true,
+   "definition": "The crisis followed a downturn in a previously hot housing market fuelled by easy mortgages and accelerated by a booming market for mortgage-backed securities traded by financial institutions.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Credit markets were defined by low underwriting standards, no oversight and reliance on complex credit instruments",
+      "Basel II was being implemented right before the crisis"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "global-financial-crisis-causes",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Causes of the 2007-2009 Financial Crisis",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "hedging-philosophy": {
@@ -943,6 +1219,47 @@
    "name": "Key Risk Indicator",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "leverage-ratio": {
+   "aliases": [],
+   "complete": true,
+   "definition": "A minimum leverage ratio of 3%, one of the five elements of the Basel III macroprudential overlay.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "leverage-ratio",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Leverage Ratio",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "liquidity-coverage-ratio": {
+   "aliases": [
+    "LCR"
+   ],
+   "complete": true,
+   "definition": "A 30-day, short-term liquidity ratio imposed by Basel III.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "liquidity-coverage-ratio",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-iii",
+     "type": "related"
+    },
+    {
+     "id": "net-stable-funding-ratio",
+     "type": "related"
+    }
+   ],
+   "name": "Liquidity Coverage Ratio",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "liquidity-risk": {
@@ -1111,6 +1428,32 @@
    "reading": "02_how-firms-manage-financial-risk",
    "source": null
   },
+  "net-stable-funding-ratio": {
+   "aliases": [
+    "NSFR"
+   ],
+   "complete": true,
+   "definition": "A one-year, long-term liquidity ratio imposed by Basel III.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "net-stable-funding-ratio",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-iii",
+     "type": "related"
+    },
+    {
+     "id": "liquidity-coverage-ratio",
+     "type": "related"
+    }
+   ],
+   "name": "Net Stable Funding Ratio",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "notional-value": {
    "aliases": [],
    "complete": true,
@@ -1209,6 +1552,10 @@
    "links": [
     {
      "id": "forward-contract",
+     "type": "related"
+    },
+    {
+     "id": "systemically-important-markets-and-infrastructures",
      "type": "related"
     }
    ],
@@ -1324,6 +1671,36 @@
    "name": "Parametric Var Sqrt T",
    "part": null,
    "reading": null,
+   "source": null
+  },
+  "post-crisis-regulatory-response": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The regulatory and corporate governance changes that followed the 2007-2009 financial crisis, led by the Basel Committee's Basel III framework alongside national and regional regimes.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Basel III and its macroprudential overlay",
+      "Basel Committee corporate governance principles for banks, revised in 2015, focus on the board's active role in oversight and risk governance",
+      "Other responses included the US Dodd-Frank Act and the European Supervisory Review and Evaluation Process (SREP)"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Explain changes in regulations and corporate risk governance that occurred as a result of the 2007-2009 financial crisis"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "post-crisis-regulatory-response",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Post-Crisis Regulatory Response",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "probability-of-default": {
@@ -1596,6 +1973,41 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "risk-governance": {
+   "aliases": [],
+   "complete": true,
+   "definition": "How firms undertake and oversee risk management. It has shifted to a well-defined set of best practices and become a central tenet of modern banking regulation.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Driven by failures at Enron (2001), WorldCom and Global Crossing (2002) and Parmalat (2003), whose actions went unchecked by auditors and boards",
+      "Financially engineered products such as derivatives were sometimes used to disguise how bad the failing firms' positions were",
+      "The US responded with legislation (SOX); England instead used corporate codes and \"comply or explain\"",
+      "The 2007-2009 global financial crisis was the epitome of risk management failure"
+     ]
+    },
+    {
+     "field": "learning_objectives",
+     "value": [
+      "Describe best practices for the governance of a firm's risk management processes",
+      "Explain the risk management role and responsibilities of a firm's board of directors",
+      "Evaluate the relationship between a firm's risk appetite and its business strategy, including the role of incentives",
+      "Illustrate the interdependence of functional units within a firm as it relates to risk management",
+      "Assess the role and responsibilities of a firm's audit committee"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "risk-governance",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Risk Governance",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "risk-management-building-blocks": {
    "aliases": [],
    "complete": true,
@@ -1818,6 +2230,60 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "sarbanes-oxley-act": {
+   "aliases": [
+    "SOX"
+   ],
+   "complete": true,
+   "definition": "US federal legislation passed after the early-2000s corporate failures (Enron, WorldCom, Global Crossing) that enforces corporate governance rules through stricter securities regulation.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "sarbanes-oxley-act",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "audit-committee",
+     "type": "related"
+    },
+    {
+     "id": "comply-or-explain",
+     "type": "related"
+    }
+   ],
+   "name": "Sarbanes-Oxley Act",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "sox-key-provisions": {
+   "aliases": [
+    "SOX Requirements"
+   ],
+   "complete": true,
+   "definition": "The main obligations SOX places on publicly traded companies and their CEOs and CFOs around accurate reporting and internal controls.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "CEOs and CFOs ensure reports filed with the SEC are accurate",
+      "CEOs and CFOs affirm that disclosures give a complete and accurate picture of the company's financial condition and operations",
+      "CEOs and CFOs are responsible for the design and maintenance of internal controls",
+      "The effectiveness of reporting procedures and controls must be reviewed annually",
+      "The names of board audit committee members must be disclosed"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "sox-key-provisions",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Sarbanes-Oxley Key Provisions",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "specific-market-risk": {
    "aliases": [],
    "complete": true,
@@ -1891,6 +2357,23 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "supervisory-review-and-evaluation-process": {
+   "aliases": [
+    "SREP"
+   ],
+   "complete": true,
+   "definition": "A European regulatory response to the 2007-2009 financial crisis.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "supervisory-review-and-evaluation-process",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Supervisory Review and Evaluation Process",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "swap": {
    "aliases": [],
    "complete": true,
@@ -1921,6 +2404,28 @@
    "name": "Swap",
    "part": "frm-part-I",
    "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "systemically-important-markets-and-infrastructures": {
+   "aliases": [
+    "SIMIs"
+   ],
+   "complete": true,
+   "definition": "An element of the Basel III macroprudential overlay. For OTC derivatives, the Basel Committee is pushing the market to move as many trades as possible through central clearing and trade reporting.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "systemically-important-markets-and-infrastructures",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "over-the-counter",
+     "type": "related"
+    }
+   ],
+   "name": "Systemically Important Markets and Infrastructures",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "tail-risk": {
@@ -2008,6 +2513,46 @@
    "name": "Three Lines of Defense",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "tier-1-capital": {
+   "aliases": [
+    "Core Capital",
+    "Primary Capital"
+   ],
+   "complete": true,
+   "definition": "The sum of common stock, retained earnings and certain reserves.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "tier-1-capital",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "basel-iii",
+     "type": "related"
+    }
+   ],
+   "name": "Tier 1 Capital",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "total-loss-absorbing-capital": {
+   "aliases": [
+    "TLAC"
+   ],
+   "complete": true,
+   "definition": "Standards that apply to global systemically important banks (G-SIBs); one of the five elements of the Basel III macroprudential overlay.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "total-loss-absorbing-capital",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Total Loss-Absorbing Capital",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "typology-of-risks": {
@@ -2127,16 +2672,16 @@
   }
  },
  "summary": {
-  "complete": 68,
+  "complete": 90,
   "incomplete": [
    "bank-operational-risk",
    "currency-risk"
   ],
-  "links": 56,
+  "links": 69,
   "missing": [
    "expected-shortfall-normal",
    "parametric-var-sqrt-t"
   ],
-  "nodes": 72
+  "nodes": 94
  }
 }
