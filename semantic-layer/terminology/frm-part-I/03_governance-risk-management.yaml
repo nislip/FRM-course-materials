@@ -70,7 +70,7 @@
   acronyms: null
   definition: >
     The sum of common stock, retained earnings and certain reserves.
-  related: [basel-iii]
+  related: [basel-iii, comprehensive-capital-analysis-and-review]
   notation: null
   examples: null
 
@@ -152,7 +152,7 @@
   acronyms: null
   definition: >
     A US regulatory response to the 2007-2009 financial crisis.
-  related: null
+  related: [systemically-important-financial-institution, orderly-liquidation-authority, living-will, volcker-rule, consumer-financial-protection-bureau, dodd-frank-act-stress-test, comprehensive-capital-analysis-and-review]
   notation: null
   examples: null
 
@@ -162,6 +162,124 @@
   acronyms: [SREP]
   definition: >
     A European regulatory response to the 2007-2009 financial crisis.
+  related: [internal-capital-adequacy-assessment-process, internal-liquidity-adequacy-assessment-process, eba-stress-test]
+  notation: null
+  examples: null
+
+- id: gramm-leach-bliley-act
+  name: Gramm-Leach-Bliley Act
+  aliases: null
+  acronyms: [GLBA]
+  definition: >
+    The 1999 US act that abolished the restrictions of the Glass-Steagall Act, letting bank holding companies convert
+    into financial services holding companies (FSHCs).
   related: null
+  notation: null
+  examples: null
+
+- id: systemically-important-financial-institution
+  name: Systemically Important Financial Institution
+  aliases: null
+  acronyms: [SIFI]
+  definition: >
+    Under Dodd-Frank, a bank holding firm with more than USD 50 billion in assets. SIFIs are regulated by the Federal
+    Reserve.
+  related: [dodd-frank-act, living-will]
+  notation: null
+  examples: null
+
+- id: orderly-liquidation-authority
+  name: Orderly Liquidation Authority
+  aliases: null
+  acronyms: [OLA]
+  definition: >
+    The mechanism Dodd-Frank created to replace "too big to fail", so a failing firm can be wound down in an orderly way.
+  related: [dodd-frank-act]
+  notation: null
+  examples: null
+
+- id: living-will
+  name: Living Will
+  aliases: [Resolution Plan]
+  acronyms: null
+  definition: >
+    A resolution plan that SIFIs must submit to the Federal Reserve and the FDIC, laying out a corporate governance
+    structure for resolution planning.
+  related: [dodd-frank-act, systemically-important-financial-institution]
+  notation: null
+  examples: null
+
+- id: volcker-rule
+  name: Volcker Rule
+  aliases: null
+  acronyms: null
+  definition: >
+    The Dodd-Frank provision, proposed by former Fed Chairman Paul Volcker and effective July 2015, that bans banking
+    entities from proprietary trading and from owning or partnering in hedge funds and private equity funds.
+  related: [dodd-frank-act]
+  notation: null
+  examples: null
+
+- id: consumer-financial-protection-bureau
+  name: Consumer Financial Protection Bureau
+  aliases: null
+  acronyms: [CFPB]
+  definition: >
+    The agency created by Dodd-Frank to regulate consumer financial services and products.
+  related: [dodd-frank-act]
+  notation: null
+  examples: null
+
+- id: dodd-frank-act-stress-test
+  name: Dodd-Frank Act Stress Test
+  aliases: null
+  acronyms: [DFAST]
+  definition: >
+    One of the two Federal Reserve stress testing exercises, for banks with assets above USD 10 billion.
+  related: [dodd-frank-act, comprehensive-capital-analysis-and-review, stress-testing]
+  notation: null
+  examples: null
+
+- id: comprehensive-capital-analysis-and-review
+  name: Comprehensive Capital Analysis and Review
+  aliases: null
+  acronyms: [CCAR]
+  definition: >
+    The Federal Reserve's annual stress testing exercise for large banks, in which a BHC presents a capital plan over
+    a nine-quarter horizon under supervisory and internally generated scenarios.
+  related: [dodd-frank-act, dodd-frank-act-stress-test, stress-testing, tier-1-capital, eba-stress-test]
+  notation: null
+  examples: null
+
+- id: internal-capital-adequacy-assessment-process
+  name: Internal Capital Adequacy Assessment Process
+  aliases: null
+  acronyms: [ICAAP]
+  definition: >
+    One of the two key components of SREP. It incorporates scenario analysis and stress testing, showing how stress
+    testing supports capital planning.
+  related: [supervisory-review-and-evaluation-process, internal-liquidity-adequacy-assessment-process, stress-testing]
+  notation: null
+  examples: null
+
+- id: internal-liquidity-adequacy-assessment-process
+  name: Internal Liquidity Adequacy Assessment Process
+  aliases: null
+  acronyms: [ILAAP]
+  definition: >
+    One of the two key components of SREP. It incorporates the potential losses from asset liquidation and higher
+    funding costs during stressful periods.
+  related: [supervisory-review-and-evaluation-process, internal-capital-adequacy-assessment-process]
+  notation: null
+  examples: null
+
+- id: eba-stress-test
+  name: EBA Stress Test
+  aliases: [European Banking Authority Stress Test]
+  acronyms: null
+  definition: >
+    The stress test EU banks with assets of 30 billion or more must run. Its scenarios unfold over three years and it
+    is fundamentally static, looking only at the immediate impact of the cumulative shocks.
+  related: [supervisory-review-and-evaluation-process, comprehensive-capital-analysis-and-review, stress-testing]
   notation: null
   examples: null

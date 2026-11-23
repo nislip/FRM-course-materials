@@ -410,6 +410,66 @@
    "reading": "03_governance-risk-management",
    "source": null
   },
+  "comprehensive-capital-analysis-and-review": {
+   "aliases": [
+    "CCAR"
+   ],
+   "complete": true,
+   "definition": "The Federal Reserve's annual stress testing exercise for large banks, in which a BHC presents a capital plan over a nine-quarter horizon under supervisory and internally generated scenarios.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "comprehensive-capital-analysis-and-review",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    },
+    {
+     "id": "dodd-frank-act-stress-test",
+     "type": "related"
+    },
+    {
+     "id": "eba-stress-test",
+     "type": "related"
+    },
+    {
+     "id": "stress-testing",
+     "type": "related"
+    },
+    {
+     "id": "tier-1-capital",
+     "type": "related"
+    }
+   ],
+   "name": "Comprehensive Capital Analysis and Review",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "consumer-financial-protection-bureau": {
+   "aliases": [
+    "CFPB"
+   ],
+   "complete": true,
+   "definition": "The agency created by Dodd-Frank to regulate consumer financial services and products.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "consumer-financial-protection-bureau",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    }
+   ],
+   "name": "Consumer Financial Protection Bureau",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "corporate-hedging-pitfalls": {
    "aliases": [],
    "complete": true,
@@ -625,8 +685,132 @@
    "id": "dodd-frank-act",
    "kind": "term",
    "latex": null,
-   "links": [],
+   "links": [
+    {
+     "id": "comprehensive-capital-analysis-and-review",
+     "type": "related"
+    },
+    {
+     "id": "consumer-financial-protection-bureau",
+     "type": "related"
+    },
+    {
+     "id": "dodd-frank-act-stress-test",
+     "type": "related"
+    },
+    {
+     "id": "living-will",
+     "type": "related"
+    },
+    {
+     "id": "orderly-liquidation-authority",
+     "type": "related"
+    },
+    {
+     "id": "systemically-important-financial-institution",
+     "type": "related"
+    },
+    {
+     "id": "volcker-rule",
+     "type": "related"
+    }
+   ],
    "name": "Dodd-Frank Act",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "dodd-frank-act-reforms": {
+   "aliases": [
+    "Restructuring US Bank Regulation"
+   ],
+   "complete": true,
+   "definition": "The 2010 US law aimed at consumer protection and systemic stability, passed after the crisis exposed that investment banks sat outside prudential bank regulation.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "In 1999 the Gramm-Leach-Bliley Act removed the Glass-Steagall restrictions, but commercial and investment banking stayed under two separate regulatory paradigms",
+      "Investment banking was not under the purview of bank regulators, so it was not subject to prudential oversight",
+      "In the crisis Bear Stearns and Merrill Lynch were absorbed in mergers, Lehman Brothers went bankrupt, and Goldman Sachs and Morgan Stanley converted into bank holding companies (BHCs)",
+      "Strengthened the Fed, which now regulates all SIFIs (bank holding firms with more than USD 50 billion in assets)",
+      "Replaced \"too big to fail\" with an orderly liquidation authority (OLA)",
+      "Requires SIFIs to submit a resolution plan (\"living will\") to the Fed and the FDIC",
+      "Launched a transparency-focused overhaul of derivatives markets to help participants with counterparty risk",
+      "The Volcker Rule bans proprietary trading and hedge fund or private equity ownership by banking entities; the 2018 reform would exempt banks under USD 10 billion in assets",
+      "Created the Consumer Financial Protection Bureau (CFPB)",
+      "Introduced a new approach to scenario analysis and stress testing"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "dodd-frank-act-reforms",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Dodd-Frank Act Reforms",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "dodd-frank-act-stress-test": {
+   "aliases": [
+    "DFAST"
+   ],
+   "complete": true,
+   "definition": "One of the two Federal Reserve stress testing exercises, for banks with assets above USD 10 billion.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "dodd-frank-act-stress-test",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "comprehensive-capital-analysis-and-review",
+     "type": "related"
+    },
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    },
+    {
+     "id": "stress-testing",
+     "type": "related"
+    }
+   ],
+   "name": "Dodd-Frank Act Stress Test",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "dodd-frank-stress-testing": {
+   "aliases": [
+    "DFAST and CCAR"
+   ],
+   "complete": true,
+   "definition": "The radically new approach to scenario analysis and stress testing that Dodd-Frank introduced, run by the Federal Reserve through DFAST and CCAR.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Top-down, with macroeconomic scenarios unfolding over several quarters",
+      "Looks at how macroeconomic downturns affect credit, liquidity, market and operational risk",
+      "Computationally demanding, because risk drivers are not stationary and portfolios can be actively managed",
+      "Fully built into a bank's business, capital and liquidity planning",
+      "Looks across all institutions, not just each bank alone, to show how a common scenario would hit the largest banks together",
+      "DFAST covers banks with assets above USD 10 billion; CCAR covers banks above USD 50 billion",
+      "CCAR is annual, with three supervisory scenarios and two internal ones (BHC baseline and BHC adverse)",
+      "Under CCAR a BHC presents a capital plan of planned actions (dividend increases, share repurchases, major acquisitions) over 9 quarters and must keep a Tier 1 capital ratio of at least 4.5%",
+      "Since the 2018 reform, CCAR is mandatory only for banks with assets above USD 250 billion"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "dodd-frank-stress-testing",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Dodd-Frank Stress Testing Approach",
    "part": "frm-part-I",
    "reading": "03_governance-risk-management",
    "source": null
@@ -669,6 +853,36 @@
    "name": "Duration Analysis",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "eba-stress-test": {
+   "aliases": [
+    "European Banking Authority Stress Test"
+   ],
+   "complete": true,
+   "definition": "The stress test EU banks with assets of 30 billion or more must run. Its scenarios unfold over three years and it is fundamentally static, looking only at the immediate impact of the cumulative shocks.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "eba-stress-test",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "comprehensive-capital-analysis-and-review",
+     "type": "related"
+    },
+    {
+     "id": "stress-testing",
+     "type": "related"
+    },
+    {
+     "id": "supervisory-review-and-evaluation-process",
+     "type": "related"
+    }
+   ],
+   "name": "EBA Stress Test",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "economic-capital": {
@@ -727,6 +941,35 @@
    "name": "Equity Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "european-regulatory-response": {
+   "aliases": [
+    "SREP and EBA Stress Tests"
+   ],
+   "complete": true,
+   "definition": "Europe's post-crisis supervisory regime, built around the Supervisory Review and Evaluation Process (SREP) and EBA stress tests.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "SREP principle: a forward-looking focus on the sustainability of each bank's business model, including under stress",
+      "SREP principle: an assessment methodology based on industry best practices",
+      "SREP principle: every bank will ultimately operate under the same standards",
+      "ICAAP and ILAAP are the two key components of SREP",
+      "EU banks with assets of 30 billion or more must run EBA stress tests",
+      "Compared with CCAR, EBA scenarios unfold over three years and are fundamentally static, looking only at the immediate impact of the cumulative shocks"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "european-regulatory-response",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "European Regulatory Response to the GFC",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "expected-loss": {
@@ -1058,6 +1301,23 @@
    "reading": "03_governance-risk-management",
    "source": null
   },
+  "gramm-leach-bliley-act": {
+   "aliases": [
+    "GLBA"
+   ],
+   "complete": true,
+   "definition": "The 1999 US act that abolished the restrictions of the Glass-Steagall Act, letting bank holding companies convert into financial services holding companies (FSHCs).",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "gramm-leach-bliley-act",
+   "kind": "term",
+   "latex": null,
+   "links": [],
+   "name": "Gramm-Leach-Bliley Act",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "hedging-philosophy": {
    "aliases": [],
    "complete": true,
@@ -1177,6 +1437,62 @@
    "reading": "01_building-blocks-risk-management",
    "source": null
   },
+  "internal-capital-adequacy-assessment-process": {
+   "aliases": [
+    "ICAAP"
+   ],
+   "complete": true,
+   "definition": "One of the two key components of SREP. It incorporates scenario analysis and stress testing, showing how stress testing supports capital planning.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "internal-capital-adequacy-assessment-process",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "internal-liquidity-adequacy-assessment-process",
+     "type": "related"
+    },
+    {
+     "id": "stress-testing",
+     "type": "related"
+    },
+    {
+     "id": "supervisory-review-and-evaluation-process",
+     "type": "related"
+    }
+   ],
+   "name": "Internal Capital Adequacy Assessment Process",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
+  "internal-liquidity-adequacy-assessment-process": {
+   "aliases": [
+    "ILAAP"
+   ],
+   "complete": true,
+   "definition": "One of the two key components of SREP. It incorporates the potential losses from asset liquidation and higher funding costs during stressful periods.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "internal-liquidity-adequacy-assessment-process",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "internal-capital-adequacy-assessment-process",
+     "type": "related"
+    },
+    {
+     "id": "supervisory-review-and-evaluation-process",
+     "type": "related"
+    }
+   ],
+   "name": "Internal Liquidity Adequacy Assessment Process",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "key-performance-indicator": {
    "aliases": [
     "KPI"
@@ -1284,6 +1600,32 @@
    "name": "Liquidity Risk",
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
+   "source": null
+  },
+  "living-will": {
+   "aliases": [
+    "Resolution Plan"
+   ],
+   "complete": true,
+   "definition": "A resolution plan that SIFIs must submit to the Federal Reserve and the FDIC, laying out a corporate governance structure for resolution planning.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "living-will",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    },
+    {
+     "id": "systemically-important-financial-institution",
+     "type": "related"
+    }
+   ],
+   "name": "Living Will",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "loss-given-default": {
@@ -1536,6 +1878,28 @@
    "name": "Option",
    "part": "frm-part-I",
    "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "orderly-liquidation-authority": {
+   "aliases": [
+    "OLA"
+   ],
+   "complete": true,
+   "definition": "The mechanism Dodd-Frank created to replace \"too big to fail\", so a failing firm can be wound down in an orderly way.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "orderly-liquidation-authority",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    }
+   ],
+   "name": "Orderly Liquidation Authority",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "over-the-counter": {
@@ -2008,6 +2372,31 @@
    "reading": "03_governance-risk-management",
    "source": null
   },
+  "risk-governance-infrastructure": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The structures through which a firm links corporate governance to risk management and pushes risk policy down to business managers.",
+   "details": [
+    {
+     "field": "key_points",
+     "value": [
+      "Are corporate governance best practices related to best practice in risk management, and if so, how?",
+      "How is risk management delegated through the organization?",
+      "What roles do executive staff and board committees play in executing and overseeing risk management?",
+      "How does risk management policy filter down to business managers and show up in regular business?"
+     ]
+    }
+   ],
+   "file": "semantic-layer/concepts/frm-part-I/03_governance-risk-management.yaml",
+   "id": "risk-governance-infrastructure",
+   "kind": "concept",
+   "latex": null,
+   "links": [],
+   "name": "Infrastructure of Risk Governance",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
+  },
   "risk-management-building-blocks": {
    "aliases": [],
    "complete": true,
@@ -2348,6 +2737,22 @@
    "latex": null,
    "links": [
     {
+     "id": "comprehensive-capital-analysis-and-review",
+     "type": "related"
+    },
+    {
+     "id": "dodd-frank-act-stress-test",
+     "type": "related"
+    },
+    {
+     "id": "eba-stress-test",
+     "type": "related"
+    },
+    {
+     "id": "internal-capital-adequacy-assessment-process",
+     "type": "related"
+    },
+    {
      "id": "reverse-stress-testing",
      "type": "related"
     }
@@ -2368,7 +2773,20 @@
    "id": "supervisory-review-and-evaluation-process",
    "kind": "term",
    "latex": null,
-   "links": [],
+   "links": [
+    {
+     "id": "eba-stress-test",
+     "type": "related"
+    },
+    {
+     "id": "internal-capital-adequacy-assessment-process",
+     "type": "related"
+    },
+    {
+     "id": "internal-liquidity-adequacy-assessment-process",
+     "type": "related"
+    }
+   ],
    "name": "Supervisory Review and Evaluation Process",
    "part": "frm-part-I",
    "reading": "03_governance-risk-management",
@@ -2404,6 +2822,32 @@
    "name": "Swap",
    "part": "frm-part-I",
    "reading": "02_how-firms-manage-financial-risk",
+   "source": null
+  },
+  "systemically-important-financial-institution": {
+   "aliases": [
+    "SIFI"
+   ],
+   "complete": true,
+   "definition": "Under Dodd-Frank, a bank holding firm with more than USD 50 billion in assets. SIFIs are regulated by the Federal Reserve.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "systemically-important-financial-institution",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    },
+    {
+     "id": "living-will",
+     "type": "related"
+    }
+   ],
+   "name": "Systemically Important Financial Institution",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
    "source": null
   },
   "systemically-important-markets-and-infrastructures": {
@@ -2530,6 +2974,10 @@
    "links": [
     {
      "id": "basel-iii",
+     "type": "related"
+    },
+    {
+     "id": "comprehensive-capital-analysis-and-review",
      "type": "related"
     }
    ],
@@ -2669,19 +3117,39 @@
    "part": "frm-part-I",
    "reading": "01_building-blocks-risk-management",
    "source": null
+  },
+  "volcker-rule": {
+   "aliases": [],
+   "complete": true,
+   "definition": "The Dodd-Frank provision, proposed by former Fed Chairman Paul Volcker and effective July 2015, that bans banking entities from proprietary trading and from owning or partnering in hedge funds and private equity funds.",
+   "details": [],
+   "file": "semantic-layer/terminology/frm-part-I/03_governance-risk-management.yaml",
+   "id": "volcker-rule",
+   "kind": "term",
+   "latex": null,
+   "links": [
+    {
+     "id": "dodd-frank-act",
+     "type": "related"
+    }
+   ],
+   "name": "Volcker Rule",
+   "part": "frm-part-I",
+   "reading": "03_governance-risk-management",
+   "source": null
   }
  },
  "summary": {
-  "complete": 90,
+  "complete": 105,
   "incomplete": [
    "bank-operational-risk",
    "currency-risk"
   ],
-  "links": 69,
+  "links": 88,
   "missing": [
    "expected-shortfall-normal",
    "parametric-var-sqrt-t"
   ],
-  "nodes": 94
+  "nodes": 109
  }
 }
