@@ -1,6 +1,6 @@
 {
   "database_id": "3b358806-1260-825e-bd8e-01b434b9db6f",
-  "last_synced_at": "2026-11-21T07:03:01Z",
+  "last_synced_at": "2026-11-23T07:03:44Z",
   "pages": {
     "04258806-1260-8302-bb5d-81a8dd34cade": {
       "last_edited_time": "2026-11-17T21:28:25.507Z",
@@ -399,16 +399,22 @@
       "title": "Extra Sources: Sample Questions from GARP Study Guide"
     },
     "41e58806-1260-80f7-b5ed-c80b79c20e4a": {
-      "last_edited_time": "2026-11-20T16:22:00.588Z",
+      "last_edited_time": "2026-11-22T16:09:24.502Z",
       "part": "frm-part-I",
       "reading": null,
       "title": "Extra Resources: Sample Questions from Analyst Prep"
     },
     "41e58806-1260-80f8-9e4b-f69e941de12d": {
-      "last_edited_time": "2026-11-20T15:17:13.974Z",
+      "last_edited_time": "2026-11-22T16:11:00.116Z",
       "part": null,
       "reading": null,
       "title": "Extra Resources: Publications, Regulation Frameworks"
+    },
+    "42058806-1260-804b-a02d-faa830c0cb78": {
+      "last_edited_time": "2026-11-22T16:25:08.071Z",
+      "part": null,
+      "reading": null,
+      "title": "Extra Resources: Accounting Terminology"
     },
     "74158806-1260-8365-88c7-815160814917": {
       "last_edited_time": "2026-11-17T21:28:36.186Z",
@@ -423,7 +429,7 @@
       "title": "Foundations Chapter 2: How do Firms Manage Financial Risk?"
     },
     "bd358806-1260-8289-bbf9-81c8344346c2": {
-      "last_edited_time": "2026-11-20T15:43:35.194Z",
+      "last_edited_time": "2026-11-22T16:08:52.294Z",
       "part": "frm-part-I",
       "reading": "03_governance-risk-management",
       "title": "Foundations Chapter 3: The Governance of Risk Management"

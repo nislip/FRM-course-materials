@@ -85,3 +85,72 @@
   formulas: null
   learning_objectives:
     - Explain changes in regulations and corporate risk governance that occurred as a result of the 2007-2009 financial crisis
+
+- id: dodd-frank-act-reforms
+  name: Dodd-Frank Act Reforms
+  aliases: [Restructuring US Bank Regulation]
+  definition: >
+    The 2010 US law aimed at consumer protection and systemic stability, passed after the crisis exposed that
+    investment banks sat outside prudential bank regulation.
+  key_points:
+    - In 1999 the Gramm-Leach-Bliley Act removed the Glass-Steagall restrictions, but commercial and investment banking stayed under two separate regulatory paradigms
+    - Investment banking was not under the purview of bank regulators, so it was not subject to prudential oversight
+    - In the crisis Bear Stearns and Merrill Lynch were absorbed in mergers, Lehman Brothers went bankrupt, and Goldman Sachs and Morgan Stanley converted into bank holding companies (BHCs)
+    - Strengthened the Fed, which now regulates all SIFIs (bank holding firms with more than USD 50 billion in assets)
+    - Replaced "too big to fail" with an orderly liquidation authority (OLA)
+    - Requires SIFIs to submit a resolution plan ("living will") to the Fed and the FDIC
+    - Launched a transparency-focused overhaul of derivatives markets to help participants with counterparty risk
+    - The Volcker Rule bans proprietary trading and hedge fund or private equity ownership by banking entities; the 2018 reform would exempt banks under USD 10 billion in assets
+    - Created the Consumer Financial Protection Bureau (CFPB)
+    - Introduced a new approach to scenario analysis and stress testing
+  formulas: null
+  learning_objectives: null
+
+- id: dodd-frank-stress-testing
+  name: Dodd-Frank Stress Testing Approach
+  aliases: [DFAST and CCAR]
+  definition: >
+    The radically new approach to scenario analysis and stress testing that Dodd-Frank introduced, run by the Federal
+    Reserve through DFAST and CCAR.
+  key_points:
+    - Top-down, with macroeconomic scenarios unfolding over several quarters
+    - Looks at how macroeconomic downturns affect credit, liquidity, market and operational risk
+    - Computationally demanding, because risk drivers are not stationary and portfolios can be actively managed
+    - Fully built into a bank's business, capital and liquidity planning
+    - Looks across all institutions, not just each bank alone, to show how a common scenario would hit the largest banks together
+    - DFAST covers banks with assets above USD 10 billion; CCAR covers banks above USD 50 billion
+    - CCAR is annual, with three supervisory scenarios and two internal ones (BHC baseline and BHC adverse)
+    - Under CCAR a BHC presents a capital plan of planned actions (dividend increases, share repurchases, major acquisitions) over 9 quarters and must keep a Tier 1 capital ratio of at least 4.5%
+    - Since the 2018 reform, CCAR is mandatory only for banks with assets above USD 250 billion
+  formulas: null
+  learning_objectives: null
+
+- id: european-regulatory-response
+  name: European Regulatory Response to the GFC
+  aliases: [SREP and EBA Stress Tests]
+  definition: >
+    Europe's post-crisis supervisory regime, built around the Supervisory Review and Evaluation Process (SREP) and
+    EBA stress tests.
+  key_points:
+    - 'SREP principle: a forward-looking focus on the sustainability of each bank''s business model, including under stress'
+    - 'SREP principle: an assessment methodology based on industry best practices'
+    - 'SREP principle: every bank will ultimately operate under the same standards'
+    - ICAAP and ILAAP are the two key components of SREP
+    - EU banks with assets of 30 billion or more must run EBA stress tests
+    - Compared with CCAR, EBA scenarios unfold over three years and are fundamentally static, looking only at the immediate impact of the cumulative shocks
+  formulas: null
+  learning_objectives: null
+
+- id: risk-governance-infrastructure
+  name: Infrastructure of Risk Governance
+  aliases: null
+  definition: >
+    The structures through which a firm links corporate governance to risk management and pushes risk policy down to
+    business managers.
+  key_points:
+    - Are corporate governance best practices related to best practice in risk management, and if so, how?
+    - How is risk management delegated through the organization?
+    - What roles do executive staff and board committees play in executing and overseeing risk management?
+    - How does risk management policy filter down to business managers and show up in regular business?
+  formulas: null
+  learning_objectives: null
